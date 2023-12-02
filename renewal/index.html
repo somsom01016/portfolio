@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html lang="kr">
+
+  <head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/x-icon" href="./images/favicon.ico">
+    <title>세아제강</title>
+    <link rel="stylesheet" href="../common/css/reset.css">
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="../common/css/plugin/slick.css">
+    <link rel="stylesheet" href="../common/css/plugin/jquery-ui.min.css">
+    <link rel="stylesheet" href="../common/css/ScrollMagicAnimate.css">
+    <link rel="stylesheet" href="../common/css/plugin/swiper-bundle.min.css">
+    <link rel="stylesheet" href="../common/css/font.css">
+    <link rel="stylesheet" href="css/keyframes.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <script src="../common/js/plugin/jquery.min.js"></script>
+    <script src="../common/js/plugin/jquery-ui.min.js"></script>
+
+  </head>
+
+  <body id="main">
+    <div class="posNum"></div>
+    <header id="gnb" class="">
+      <div class="gnb_area">
+        <h1 class="logo" onclick="location.href='../renewal/'">
+          <img src="./images/common/gnb_rev_logo.png" class="reversal">
+          <img src="./images/common/logo.png" class="default">
+        </h1>
+        <nav class="nav_area">
+          <button class="menu_1" type="button" onclick="location.href='./company.html'">
+            <img src="./images/common/gnb_on_company.png" class="hover">
+            <img src="./images/common/gnb_rev_company.png" class="reversal">
+            <img src="./images/common/company.png" class="default">
+          </button>
+          <button class="menu_2" type="button" onclick="location.href='./product.html'">
+            <img src="./images/common/gnb_on_product.png" class="hover">
+            <img src="./images/common/gnb_rev_product.png" class="reversal">
+            <img src="./images/common/product.png" class="default">
+          </button>
+          <button class="menu_3" type="button" onclick="location.href='./ir.html'">
+            <img src="./images/common/gnb_on_ir.png" class="hover">
+            <img src="./images/common/gnb_rev_ir.png" class="reversal">
+            <img src="./images/common/ir.png" class="default">
+          </button>
+          <button class="menu_4" type="button" onclick="location.href='./pr.html'">
+            <img src="./images/common/gnb_on_pr.png" class="hover">
+            <img src="./images/common/gnb_rev_pr.png" class="reversal">
+            <img src="./images/common/pr.png" class="default">
+          </button>
+          <button class="menu_5" type="button" onclick="location.href='./sustainability.html'">
+            <img src="./images/common/gnb_on_sustainability.png" class="hover">
+            <img src="./images/common/gnb_rev_sustainability.png" class="reversal">
+            <img src="./images/common/sustainability.png" class="default">
+          </button>
+        </nav>
+        <div class="uil">
+          <button class="language" type="button" onclick="alert('준비중입니다')">
+            <img src="./images/common/gnb_on_language.png" class="hover">
+            <img src="./images/common/gnb_rev_language.png" class="reversal">
+            <img src="./images/common/language.png" class="default">
+          </button>
+          <button class="menu_drawer" type="button" onclick="alert('준비중입니다')">
+            <img src="./images/common/drawer-menu.gif" class="hover">
+            <img src="./images/common/drawer-menu.gif" class="reversal">
+            <img src="./images/common/drawer-menu.gif" class="default">
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <section id="container">
+      <div id="wrap">
+        <main id="hero_bnr" class="main nav_off">
+          <div id="scroll_down">
+            <span class="txt"><img src="./images/main/main_scroll-down_txt.png"></span>
+            <i class="ico"></i>
+          </div>
+  
+          <div id="bnr_swiper_control">
+            <div class="bnr_swiper_scrollbar" dir="rtl">
+              <ul class="swiper-wrapper">
+                <li class="swiper-slide scrollbar_1"></li>
+                <li class="swiper-slide scrollbar_2"></li>
+                <li class="swiper-slide scrollbar_3"></li>
+                <li class="swiper-slide scrollbar_4"></li>
+              </ul>
+            </div>
+  
+            <div class="bnr_swiper_movement">
+              <button class="btn_pause active"><img src="./images/ico/pause_1.gif"></button>
+              <button class="btn_play"><img src="./images/ico/play_1.png"></button>
+            </div>
+  
+            <div class="bnr_swiper_direction">
+              <button class="btn_prev"><img src="./images/ico/prev_1.png"></button>
+              <button class="btn_next"><img src="./images/ico/next_1.png"></button>
+            </div>
+  
+            <div class="bnr_swiper_pagination_fraction">
+              <div class="bnr_current"></div>
+              <div class="bnr_total"></div>
+            </div>
+          </div>
+  
+          <div id="bnr_swiper" class="">
+            <div class="bnr_swiper_bullets"></div>
+  
+            <ul class="swiper-wrapper">
+              <li class="bnr itm_1 swiper-slide">
+                <div class="txt_area">
+                  <h5><img src="./images/main/main_bnr_em.png"></h5>
+                  <h3 class="mt30"><img src="./images/main/main_bnr_itm01_tit_1.png">
+                    <img src="./images/main/main_bnr_itm01_tit_2.png">
+                  </h3>
+  
+                  <button class="btn" type="button" onclick="location.href='company.html'">
+                    <img src="./images/main/main_bnr_itm_btn_txt.png">
+                  </button>
+                </div>
+                
+                <div class="img"></div>
+              </li>
+              
+              <li class="bnr itm_2 swiper-slide">
+                <div class="txt_area">
+                  <h5><img src="./images/main/main_bnr_em.png"></h5>
+                  <h3 class="mt30"><img src="./images/main/main_bnr_itm02_tit_1.png">
+                    <img src="./images/main/main_bnr_itm02_tit_2.png">
+                  </h3>
+                  
+                  <button class="btn" type="button" onclick="location.href='sustainability.html'">
+                    <img src="./images/main/main_bnr_itm_btn_txt.png">
+                  </button>
+                </div>
+                
+                <div class="img"></div>
+              </li>
+              
+              <li class="bnr itm_3 swiper-slide">
+                <div class="txt_area">
+                  <h5><img src="./images/main/main_bnr_em.png"></h5>
+                  <h3 class="mt30"><img src="./images/main/main_bnr_itm03_tit_1.png">
+                    <img src="./images/main/main_bnr_itm03_tit_2.png">
+                  </h3>
+                  
+                  <button class="btn" type="button" onclick="location.href='ir.html'">
+                    <img src="./images/main/main_bnr_itm_btn_txt.png">
+                  </button>
+                </div>
+                
+                <div class="img"></div>
+              </li>
+              
+              <li class="bnr itm_4 swiper-slide">
+                <div class="txt_area ">
+                  <h5><img src="./images/main/main_bnr_em.png"></h5>
+                  <h3 class="mt30"><img src="./images/main/main_bnr_itm04_tit_1.png">
+                    <img src="./images/main/main_bnr_itm04_tit_2.png">
+                  </h3>
+  
+                  <button class="btn" type="button" onclick="location.href='product.html'">
+                    <img src="./images/main/main_bnr_itm_btn_txt.png">
+                  </button>
+                </div>
+                
+                <div class="img"></div>
+              </li>
+            </ul>
+          </div>
+        </main>
+  
+        <section id="area" class="">
+          <article class="txt_bg">
+            <div class="txt_area mt195 fadeInUp_inner">
+              <h3 class=""><img src="./images/main/area_tit.png"></h3>
+              <h4 class="mt27"><img src="./images/main/area_dfn.png"></h4>
+  
+              <button type="button" onclick="location.href='product.html'" class="btn mt50">
+                <img src="./images/main/area_btn_txt.png">
+              </button>
+            </div>
+  
+            <ul class="itm_area mt199">
+              <li class="itm_1 fadeInUp">
+                <p class="txt"><img src="./images/main/area_item01_desc.png"></p>
+                <div class="img">
+                  <span><img src="./images/main/area_itm01_bg_img.jpg"></span>
+                </div>
+              </li>
+              <li class="itm_4 fadeInUp">
+                <p class="txt"><img src="./images/main/area_item04_desc.png"></p>
+                <div class="img">
+                  <span><img src="./images/main/area_itm04_bg_img.jpg"></span>
+                </div>
+              </li>
+              <li class="itm_2 fadeInDown">
+                <p class="txt"><img src="./images/main/area_item02_desc.png"></p>
+                <div class="img">
+                  <span><img src="./images/main/area_itm02_bg_img.jpg"></span>
+                </div>
+              </li>
+              <li class="itm_3 fadeInUpBig">
+                <p class="txt"><img src="./images/main/area_item03_desc.png"></p>
+                <div class="img">
+                  <span><img src="./images/main/area_itm03_bg_img.jpg"></span>
+                </div>
+              </li>
+              <li class="itm_5 fadeInDown">
+                <p class="txt"><img src="./images/main/area_item05_desc.png"></p>
+                <div class="img">
+                  <span><img src="./images/main/area_itm05_bg_img.jpg"></span>
+                </div>
+              </li>
+              <li class="itm_6 fadeInUpBig">
+                <p class="txt"><img src="./images/main/area_item06_desc.png"></p>
+                <div class="img">
+                  <span><img src="./images/main/area_itm06_bg_img.jpg"></span>
+                </div>
+              </li>
+            </ul>
+          </article>
+        </section>
+
+        <section id="greetings" class="bg">
+          <article class="">
+            <div class="txt_area set mt200 fadeInLeft fadeInUp_inner">
+              <h3 class="f45_l67 fadeInUp_inner"><img src="./images/main/greetings_tit_1.png">
+                <img src="./images/main/greetings_tit_2.png">
+                <img src="./images/main/greetings_tit_3.png">
+              </h3>
+              <p><img src="./images/main/greetings_txt_1.png">
+                <img src="./images/main/greetings_txt_2.png">
+              </p>
+              <h6 class=""><img src="./images/main/greetings_desc.png"></h6>
+  
+              <button type="button" onclick="location.href='company.html'" class="btn_more">
+                <img src="./images/main/greetings_btn_txt.png">
+              </button>
+            </div>
+          </article>
+        </section>
+        
+        <section id="recruit" class="">
+          <article class="">
+            <div class="txt_area fadeInUp_inner">
+              <h5><img src="./images/main/recruit_em.png"></h5>
+              <h3 class="f45_l67"><img src="./images/main/recruit_tit_1.png">
+                <img src="./images/main/recruit_tit_2.png">
+                <img src="./images/main/recruit_tit_3.png">
+              </h3>
+  
+              <button type="button" onclick="window.open('https://seahsteel.recruiter.co.kr')" class="btn">
+                <img src="./images/main/recruit_btn_txt.png"></button>
+            </div>
+  
+            <div class="swiper_controller">
+              <div class="swiper-thumbs_inner">
+                <div class="swiper-thumbs">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide slide_1"></div>
+                    <div class="swiper-slide slide_2"></div>
+                    <div class="swiper-slide slide_3"></div>
+                    <div class="swiper-slide slide_4"></div>
+                    <div class="swiper-slide slide_5"></div>
+                    <div class="swiper-slide slide_6"></div>
+                  </div>
+  
+                  <div class="swiper_pagination_fraction"></div>
+                </div>
+              </div>
+  
+              <div class="swiper-progressbar"></div>
+  
+              <div class="swiper-button">
+                <button type="button" class="swiper-button-prev"><img src="./images/main/recruit_ico_prev.png"></button>
+                <button type="button" class="swiper-button-next"><img src="./images/main/recruit_ico_next.png"></button>
+              </div>
+            </div>
+
+            <div id="recruitSwiper" class="swiper" dir="rtl">
+              <ul class="swiper-wrapper list">
+                <li class="list_1 swiper-slide">
+                  <h5><img src="./images/main/recruit_itm01_em.png"></h5>
+                  <h4 class=""><img src="./images/main/recruit_itm01_tit.png"></h4>
+                  <figure class="img"></figure>
+                </li>
+                <li class="list_2 swiper-slide">
+                  <h5><img src="./images/main/recruit_itm02_em.png"></h5>
+                  <h4 class=""><img src="./images/main/recruit_itm02_tit_1.png">
+                    <img src="./images/main/recruit_itm02_tit_2.png">
+                  </h4>
+                  <figure class="img"></figure>
+                </li>
+                <li class="list_3 swiper-slide">
+                  <h5><img src="./images/main/recruit_itm03_em.png"></h5>
+                  <h4 class=""><img src="./images/main/recruit_itm03_tit.png"></h4>
+                  <figure class="img"></figure>
+                </li>
+              </ul>
+            </div>
+          </article>      
+        </section>
+  
+        <section id="introduction" class="nav_off">
+          <article class="">
+            <div class="txt_area">
+              <h5><img src="./images/main/introduction_em.png"></h5>
+              <h3 class="f45_l67"><img src="./images/main/introduction_tit_1.png">
+                <img src="./images/main/introduction_tit_2.png">
+              </h3>
+            </div>
+    
+            <button type="button" onclick="location.href='company.html'" class="btn">
+              <img src="./images/main/introduction_btn_txt.png">
+            </button>
+          </article>
+        </section>
+        
+        <section id="product" class="product">
+          <article class="">
+            <ul class="list_area">
+              <li class="list_1">
+                <div class="img fadeInUp">
+                  <span><img src="./images/main/product_itm01_img.jpg"></span>
+                </div>
+                <div class="txt_area ml100 fadeInUp_inner">
+                  <h5 class=""><img src="./images/main/product_itm01_em.png"></h5>
+                  <h3 class=""><img src="./images/main/product_itm01_tit_1.png">
+                    <img src="./images/main/product_itm01_tit_2.png">
+                  </h3>
+                  <h4 class=""><img src="./images/main/product_itm01_dfn.png"></h4>
+                  <p class=""><img src="./images/main/product_itm01_txt_1.png">
+                    <img src="./images/main/product_itm01_txt_2.png">
+                    <img src="./images/main/product_itm01_txt_3.png">
+                  </p>
+  
+                  <button type="button" onclick="location.href='product.html'" class="btn">
+                    <img src="./images/main/product_btn_txt.png">
+                  </button>
+                </div>
+              </li>
+
+              <li class="list_2">
+                <div class="txt_area fadeInUp_inner">
+                  <h5 class=""><img src="./images/main/product_itm02_em.png"></h5>
+                  <h3 class=""><img src="./images/main/product_itm02_tit.png"></h3>
+                  <h4 class=""><img src="./images/main/product_itm02_dfn.png"></h4>
+                  <p class=""><img src="./images/main/product_itm02_txt_1.png">
+                    <img src="./images/main/product_itm02_txt_2.png">
+                    <img src="./images/main/product_itm02_txt_3.png">
+                  </p>
+  
+                  <button type="button" onclick="location.href='product.html'" class="btn">
+                    <img src="./images/main/product_btn_txt.png">
+                  </button>
+                </div>
+                <div class="img fadeInUp">
+                  <span><img src="./images/main/product_itm02_img.jpg"></span>
+                </div>
+              </li>
+            </ul>
+          </article>
+        </section> 
+  
+        <section id="coexistence" class="notice">
+          <article class="board">
+            <div class="board_head">
+              <div class="txt_area fadeInUp_inner">
+                <h3 class=""><img src="./images/main/notice_tit_1.png">
+                  <img src="./images/main/notice_tit_2.png">
+                </h3>
+                <p class=""><img src="./images/main/notice_txt_1.png">
+                  <img src="./images/main/notice_txt_2.png">
+                </p>
+              </div>
+  
+              <div class="swiper-button mt30">
+                  <button type="button" class="swiper-button-prev"></button>
+                  <button type="button" class="swiper-button-next"></button>
+              </div>
+            </div>
+
+            <div class="board_content">
+              <div id="coexistenceSwiper" class="swiper" dir="rtl">
+                <ul class="swiper-wrapper list">
+                  <li class="list_1 swiper-slide" onclick="location.href='pr.html'">
+                    <div class="img">
+                      <span><img src="./images/main/notice_itm01_img.jpg"></span>
+                    </div>
+                    <h4 class="tit"><img src="./images/main/notice_itm01_tit.png"></h4>
+                    <p class="txt date"><img src="./images/main/notice_itm01_time.png"></p>
+                  </li>
+    
+                  <li class="list_2 swiper-slide" onclick="location.href='pr.html'">
+                    <div class="img">
+                      <span><img src="./images/main/notice_itm02_img.jpg"></span>
+                    </div>
+                    <h4 class="tit"><img src="./images/main/notice_itm03_tit.png"></h4>
+                    <p class="txt date"><img src="./images/main/notice_itm03_time.png"></p>
+                  </li>
+                  
+                  <li class="list_3 swiper-slide" onclick="location.href='pr.html'">
+                    <div class="img">
+                      <span><img src="./images/main/notice_itm03_img.jpg"></span>
+                    </div>
+                    <h4 class="tit"><img src="./images/main/notice_itm03_tit.png"></h4>
+                    <p class="txt date"><img src="./images/main/notice_itm03_time.png"></p>
+                  </li>
+                </ul>
+             </div>
+            </div>
+          </article>
+        </section>
+        
+        <section id="technology" class="">
+          <article class="board">
+            <div class="board_head">
+              <div class="txt_area fadeInUp_inner">
+                <h3 class=""><img src="./images/main/technology_tit.png"></h3>
+                <p class=""><img src="./images/main/technology_txt_1.png">
+                  <img src="./images/main/technology_txt_2.png">
+                </p>
+              </div>
+  
+              
+              <div class="swiper-button">
+                <button type="button" class="swiper-button-prev"><img src="./images/main/technology_itm_ico_prev.png"></button>
+                
+                <div class="swiper-pagination"></div>
+                <button type="button" class="swiper-button-next"><img src="./images/main/technology_itm_ico_next.png"></button>
+              </div>
+            </div>
+  
+            <div id="technologySwiper" class="swiper board_content">
+              <ul class="swiper-wrapper list">
+                <li class="list_1 swiper-slide" onclick="location.href='product.html'">
+                  <div class="img"></div>
+                  <h5><img src="./images/main/technology_itm01_em.png"></h5>
+                  <h4 class="tit"><img src="./images/main/technology_itm01_tit.png"></h4>
+                  <p class="txt_num"><img src="./images/main/technology_itm01_num.png"></p>
+                </li>
+                <li class="list_2 swiper-slide" onclick="location.href='product.html'">
+                  <div class="img"></div>
+                  <h5><img src="./images/main/technology_itm02_em.png"></h5>
+                  <h4 class="tit"><img src="./images/main/technology_itm02_tit.png"></h4>
+                  <p class="txt_num"><img src="./images/main/technology_itm02_num.png"></p>
+                </li>
+                <li class="list_3 swiper-slide" onclick="location.href='product.html'">
+                  <div class="img"></div>
+                  <h5><img src="./images/main/technology_itm03_em.png"></h5>
+                  <h4 class="tit"><img src="./images/main/technology_itm03_tit.png"></h4>
+                  <p class="txt_num"><img src="./images/main/technology_itm03_num.png"></p>
+                </li>
+              </ul>
+            </div>
+          </article>
+        </section>
+  
+        <section id="r-and-d-center" class="nav_off">
+          <article class="">
+            <div class="txt_area fadeInUp_inner">
+              <h3><img src="./images/main/r-and-d-center_tit.png"></h3>
+              <p class=""><img src="./images/main/r-and-d-center_txt.png"></p>
+            </div>
+  
+            <ul class="list_area">
+              <li class="list_1 fadeInUp_inner" onclick="alert('준비중 입니다.');">
+                <div class="img">
+                  <span class="icon"><img src="./images/main/r-and-d-center_itm01_ico.png"></span>
+                </div>
+                <h6 class=""><img src="./images/main/r-and-d-center_itm01_tit.png"></h6>
+                <p class=""><img src="./images/main/r-and-d-center_itm01_dfn.png"></p>
+              </li>
+              <li class="list_2 fadeInUp_inner" onclick="alert('준비중 입니다.');">
+                <div class="img">
+                  <span class="icon"><img src="./images/main/r-and-d-center_itm02_ico.png"></span>
+                </div>
+                <h6 class=""><img src="./images/main/r-and-d-center_itm02_tit.png"></h6>
+                <p class=""><img src="./images/main/r-and-d-center_itm02_dfn.png"></p>
+              </li>
+            </ul>
+          </article>
+        </section>
+  
+        <section id="acquired" class="">
+          <article class="">
+            <div class="txt_area fadeInUp_inner">
+              <h3 class=""><img src="./images/main/acquired_tit_1.png">
+                <img src="./images/main/acquired_tit_2.png">
+              </h3>
+              <p class=""><img src="./images/main/acquired_txt_1.png">
+                <img src="./images/main/acquired_txt_2.png">
+                <img src="./images/main/acquired_txt_3.png">
+              </p>
+  
+              <button type="button" onclick="location.href='product.html'" class="btn_view-more fadeInDown">
+                <img src="./images/common/btn_view-more_txt.png">
+              </button>
+            </div>
+  
+            <ul class="list_area">
+              <li class="list_1 certification fadeInLeft" onclick="location.href='product.html'">
+                <h4 class="tit"><img src="./images/main/certification_desc.png"></h4>
+                <div class="img">
+                  <span class="dim"><img src="./images/main/certification_bg_img.jpg"></span>
+                </div>
+              </li>
+              <li class="list_2 patent fadeInRight" onclick="location.href='product.html'">
+                <h4 class="tit"><img src="./images/main/patent_desc.png"></h4>
+                <div class="img">
+                  <span class="dim"><img src="./images/main/patent_bg_img.jpg"></span>
+                </div>
+              </li>
+            </ul>
+          </article>
+        </section>
+  
+        <section id="video" class="nav_off">
+          <article class="">
+            <div class="txt_area fadeInUp_inner">
+              <h3><img src="./images/main/video_tit.png"></h3>
+              <p class=""><img src="./images/main/video_txt.png"></p>
+              <button type="button" class="btn_more_bar" onclick="location.href='pr.html'">
+                <img src="./images/main/video_btn_txt.png">
+              </button>
+            </div>
+
+            <div id="videoSwiper" class="swiper">
+              <ul class="list swiper-wrapper play">
+                <li class="list_1 swiper-slide" onclick="location.href='pr.html'">
+                  <figure class="img dim">
+                    <i class="ico"><img src="./images/common/ico_play.gif"></i>
+                  </figure>
+                  <h6><img src="./images/main/video_itm01_tit.png"></h6>
+                  <p><img src="./images/main/video_itm01_desc.png"></p>
+                </li>
+                <li class="list_2 swiper-slide" onclick="location.href='pr.html'">
+                  <figure class="img dim">
+                    <i class="ico"><img src="./images/common/ico_play.gif"></i>
+                  </figure>
+                  <h6><img src="./images/main/video_itm02_tit.png"></h6>
+                  <p><img src="./images/main/video_itm02_desc.png"></p>
+                </li>
+                <li class="list_3 swiper-slide" onclick="location.href='pr.html'">
+                  <figure class="img dim">
+                    <i class="ico"><img src="./images/common/ico_play.gif"></i>
+                  </figure>
+                  <h6><img src="./images/main/video_itm03_tit.png"></h6>
+                  <p><img src="./images/main/video_itm03_desc.png"></p>
+                </li>
+                <li class="list_4 swiper-slide" onclick="location.href='pr.html'">
+                  <figure class="img dim">
+                    <i class="ico"><img src="./images/common/ico_play.gif"></i>
+                  </figure>
+                  <h6><img src="./images/main/video_itm04_tit.png"></h6>
+                  <p><img src="./images/main/video_itm04_desc.png"></p>
+                </li>
+              </ul>
+  
+              <div class="swiper_controller">
+                <div class="swiper-button">
+                    <button type="button" class="swiper-button-next"></button>
+                    <button type="button" class="swiper-button-prev"></button>
+                </div>
+                <div class="swiper-pn">
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-pn-num"><p><i></i></p></div>
+                </div>
+              </div>
+            </div>
+          </article>
+        </section>
+  
+        <footer id="footer" class="bg nav_off">
+          <article class="inner01 set">
+            <div class="txt_area contact">
+              <h3><img src="./images/footer/contact_tit.png" alt="Contact"></h3>
+              <p class="mt40"><img src="./images/footer/contact_txt.png" alt="본사 직영의 전국 4개의 영업소에서 다양한 용도와 규격의 제품 정보를 만나보십시오."></p>
+              
+              <button type="button" class="btn_more_bar mt70" onclick="alert('준비중 입니다.');">
+                <img src="./images/footer/contact_btn_txt.png">
+              </button>
+            </div>
+          </article>
+  
+          <article class="inner02 set">
+            <p class="tit"><img src="./images/footer/copyright_txt.png" alt="Writes History of Korean Steel Pipe Industry."></p>
+            <p class="txt"><img src="./images/footer/copyright.png" alt="ⓒ 2022.SeAH Steel Corp. All Rights Reserved."></p>
+  
+            <nav class="fnb_inner">
+              <a class="fnb_1" href="#"><img src="./images/footer/fnb_1.png" alt="사이트안내"></a>
+              <a class="fnb_2" href="#"><img src="./images/footer/fnb_2.png" alt="개인정보처리방침"></a>
+              <a class="fnb_3" href="#"><img src="./images/footer/fnb_3.png" alt="이용약관"></a>
+              <a class="fnb_4" href="#"><img src="./images/footer/fnb_4.png" alt="이메일무단수집거부"></a>
+              <a class="fnb_5" href="#"><img src="./images/footer/fnb_5.png" alt="사이버감사실"></a>
+            </nav>
+  
+            <select class="family_site_inner" onclick="alert('준비중입니다')">
+              <option value="family_site" class="family_site" select="select">Family Site</option>
+            </select>
+  
+            <address class="address"><img src="./images/footer/address.png" alt="대표번호 : 02.2018.5114"></address>
+          </article>
+        </footer>
+      </div>
+    </section>
+
+    <script src="../common/js/plugin/gsap.min.js"></script>
+    <script src="../common/js/plugin/ScrollTrigger.min.js"></script>
+    <script src="../common/js/plugin/ScrollMagic.min.js"></script> <!-- ScrollMagic -->
+    <script src="../common/js/plugin/animation.gsap.min.js"></script> <!-- ScrollMagic -->
+    <script src="../common/js/plugin/debug.addIndicators.min.js"></script> <!-- ScrollMagic -->
+    <script src="../common/js/plugin/swiper.min.js"></script>
+    <script src="../common/js/plugin/slick.min.js"></script>
+    <script src="../common/js/scrollbar.js"></script>
+    <script src="../common/js/ScrollMagicAnimate.js"></script>
+    <script src="../common/js/common.js"></script>
+    <script src="js/swiper.js"></script>
+    <script src="js/common.js"></script>
+  </body>
+
+</html>

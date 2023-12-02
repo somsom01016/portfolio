@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html lang="kr">
+
+    <head>
+        <meta charset="UTF-8">
+        <link rel="icon" type="image/x-icon" href="./images/favicon.ico">
+        <title>재무정보 | 세아제강</title>
+        <link rel="stylesheet" href="../common/css/reset.css">
+        <link rel="stylesheet" href="../common/css/common.css">
+        <link rel="stylesheet" href="../common/css/plugin/slick.css">
+        <link rel="stylesheet" href="../common/css/plugin/jquery-ui.min.css">
+        <link rel="stylesheet" href="../common/css/ScrollMagicAnimate.css">
+        <link rel="stylesheet" href="../common/css/plugin/swiper-bundle.min.css">
+        <link rel="stylesheet" href="../common/css/font.css">
+        <link rel="stylesheet" href="css/keyframes.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/sub.css">
+
+        <script src="../common/js/plugin/jquery.min.js"></script>
+        <script src="../common/js/plugin/jquery-ui.min.js"></script>
+    </head>
+
+    <body id="sub" class="ir">
+      <div class="posNum"></div>
+      <header id="gnb" class="">
+        <div class="gnb_area">
+          <h1 class="logo" onclick="location.href='../renewal/'">
+            <img src="./images/common/gnb_rev_logo.png" class="reversal">
+            <img src="./images/common/logo.png" class="default">
+          </h1>
+          <nav class="nav_area">
+            <button class="menu_1" type="button" onclick="location.href='./company.html'">
+              <img src="./images/common/gnb_on_company.png" class="hover">
+              <img src="./images/common/gnb_rev_company.png" class="reversal">
+              <img src="./images/common/company.png" class="default">
+            </button>
+            <button class="menu_2" type="button" onclick="location.href='./product.html'">
+              <img src="./images/common/gnb_on_product.png" class="hover">
+              <img src="./images/common/gnb_rev_product.png" class="reversal">
+              <img src="./images/common/product.png" class="default">
+            </button>
+            <button class="menu_3" type="button" onclick="location.href='./ir.html'">
+              <img src="./images/common/gnb_on_ir.png" class="hover">
+              <img src="./images/common/gnb_rev_ir.png" class="reversal">
+              <img src="./images/common/ir.png" class="default">
+            </button>
+            <button class="menu_4" type="button" onclick="location.href='./pr.html'">
+              <img src="./images/common/gnb_on_pr.png" class="hover">
+              <img src="./images/common/gnb_rev_pr.png" class="reversal">
+              <img src="./images/common/pr.png" class="default">
+            </button>
+            <button class="menu_5" type="button" onclick="location.href='./sustainability.html'">
+              <img src="./images/common/gnb_on_sustainability.png" class="hover">
+              <img src="./images/common/gnb_rev_sustainability.png" class="reversal">
+              <img src="./images/common/sustainability.png" class="default">
+            </button>
+          </nav>
+          <div class="uil">
+            <button class="language" type="button" onclick="alert('준비중입니다')">
+              <img src="./images/common/gnb_on_language.png" class="hover">
+              <img src="./images/common/gnb_rev_language.png" class="reversal">
+              <img src="./images/common/language.png" class="default">
+            </button>
+            <button class="menu_drawer" type="button" onclick="alert('준비중입니다')">
+              <img src="./images/common/drawer-menu.gif" class="hover">
+              <img src="./images/common/drawer-menu.gif" class="reversal">
+              <img src="./images/common/drawer-menu.gif" class="default">
+            </button>
+          </div>
+        </div>
+      </header>
+  
+      <section id="container">
+        <div id="wrap">
+          <div id="header" class="nav_off">
+            <div class="headline">
+              <em class="em"><img src="./images/common/header_em.png" alt="#"></em>
+              <h2 class="tit"><img src="./images/ir/header_tit.png" alt="#"></h2>
+              
+              <div class="location">
+                <div class="home"><img src="./images/common/location_home.png" alt="#"></div>
+                <div class="select" onclick="alert('준비중입니다')">
+                  <div class="option"><img src="./images/ir/location_curr.png" alt="#"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+  
+          <section id="section01" class="stock">
+            <article class="inner01">
+              <div class="txt_area area01 mt200 fadeInUp_inner">                
+                 <h5><img src="./images/ir/stock_em.png" alt="#" class=""></h5>
+                 <h4 class="mt70"><img src="./images/ir/stock_tit_1.png" alt="#">
+                  <img src="./images/ir/stock_tit_2.png" alt="#">
+                </h4>
+              </div>
+  
+              <div class="price_info area01 mt30">
+                <div class="cur_quote fadeInUp_inner">
+                  <span class="desc_1"><i class="fadeInUp"><img src="./images/ir/stock_ico_up.png" alt=""></i><img src="./images/ir/stock_price_cur_quote_txt_num.png" alt=""></span>
+                  <span class="desc_2"><i class="fadeInUp"><img src="./images/ir/stock_ico_up.png" alt=""></i><img src="./images/ir/stock_price_percent_txt_num.png" alt=""></span>
+                  <span class="desc_3"><i class="fadeInUp"><img src="./images/ir/stock_ico_up.png" alt=""></i><img src="./images/ir/stock_price_updown_txt_num.png" alt=""></span>
+                </div>
+                <div class="change_ohlv area01 mt25 fadeInUpBig_inner">
+                  <span class="desc_1"><img src="./images/ir/stock_price_desc_num_1.png" alt=""></span>
+                  <span class="desc_2"><img src="./images/ir/stock_price_desc_num_2.png" alt=""></span>
+                  <span class="desc_3"><img src="./images/ir/stock_price_desc_num_3.png" alt=""></span>
+                  <span class="desc_4"><img src="./images/ir/stock_price_desc_num_4.png" alt=""></span>
+                </div>
+                
+                <div class="img">
+                  <span><img src="./images/ir/stock_img.jpg" alt=""></span>
+                </div>
+              </div>
+  
+              <article class="inner02 kospi center">
+                <div class="percent fadeInUp_inner">
+                  <span class="desc_1"><img src="./images/ir/stock_kospi_percent_txt_num_1.png" alt=""></span>
+                  <span class="desc_2"><img src="./images/ir/stock_kospi_percent_txt_num_2.png" alt=""></span>
+                  <span class="desc_3"><img src="./images/ir/stock_kospi_percent_txt_num_3.png" alt=""></span>
+                </div>
+                <div class="updown">
+                  <span class="desc_1 fadeInDown_inner"><i class=""><img src="./images/ir/stock_ico_down.png" alt=""></i><img src="./images/ir/stock_kospi_updown_txt_num_1.png" alt=""></span>
+                  <span class="desc_2 fadeInDown_inner"><i class=""><img src="./images/ir/stock_ico_down.png" alt=""></i><img src="./images/ir/stock_kospi_updown_txt_num_2.png" alt=""></span>
+                  <span class="desc_3 fadeInDown_inner"><i class=""><img src="./images/ir/stock_ico_up.png" alt=""></i><img src="./images/ir/stock_kospi_updown_txt_num_3.png" alt=""></span>
+                </div>
+              </article>
+  
+              <article class="inner03 capital mt70">
+                <div class="table">
+                  <div class="thead pt40">
+                    <span><img src="./images/ir/stock_capital_tit_1.png" alt=""></span>
+                    <span><img src="./images/ir/stock_capital_tit_2.png" alt=""></span>
+                    <span><img src="./images/ir/stock_capital_tit_3.png" alt=""></span>
+                  </div>
+                  <div class="tbody">
+                    <div class="sell fadeInDown_inner">
+                      <span><img src="./images/ir/stock_capital_sell_1.png" alt=""></span>
+                      <span><img src="./images/ir/stock_capital_sell_2.png" alt=""></span>
+                      <span><img src="./images/ir/stock_capital_sell_3.png" alt=""></span>
+                      <span><img src="./images/ir/stock_capital_sell_4.png" alt=""></span>
+                      <span><img src="./images/ir/stock_capital_sell_5.png" alt=""></span>
+                    </div>
+                    <div class="price fadeInUp_inner">
+                      <span><img src="./images/ir/stock_capital_price_1.png" alt=""></span>
+                      <span><img src="./images/ir/stock_capital_price_2.png" alt=""></span>
+                      <span><img src="./images/ir/stock_capital_price_3.png" alt=""></span>
+                      <span><img src="./images/ir/stock_capital_price_4.png" alt=""></span>
+                      <span><img src="./images/ir/stock_capital_price_5.png" alt=""></span>
+                      <span><img src="./images/ir/stock_capital_price_6.png" alt=""></span>
+                      <span><img src="./images/ir/stock_capital_price_7.png" alt=""></span>
+                      <span><img src="./images/ir/stock_capital_price_8.png" alt=""></span>
+                      <span><img src="./images/ir/stock_capital_price_9.png" alt=""></span>
+                      <span><img src="./images/ir/stock_capital_price_10.png" alt=""></span>
+                    </div>
+                    <div class="buy fadeInDown_inner">
+                      <span><img src="./images/ir/stock_capital_buy_1.png" alt=""></span>
+                      <span><img src="./images/ir/stock_capital_buy_2.png" alt=""></span>
+                      <span><img src="./images/ir/stock_capital_buy_3.png" alt=""></span>
+                      <span><img src="./images/ir/stock_capital_buy_4.png" alt=""></span>
+                      <span><img src="./images/ir/stock_capital_buy_5.png" alt=""></span>
+                    </div>
+                  </div>
+                  <div class="tfoot">
+                    <span><img src="./images/ir/stock_capital_total_1.png" alt=""></span>
+                    <span><img src="./images/ir/stock_capital_total_2.png" alt=""></span>
+                    <span><img src="./images/ir/stock_capital_total_3.png" alt=""></span>
+                  </div>
+                </div>
+              </article>
+            </article>
+          </section>
+
+          <section id="section02" class="financial bg nav_off">
+            <article class="inner01">
+              <div class="txt_area mt195 fadeInUp_inner">
+                <h3><img src="./images/ir/financial_tit.png" alt="#"></h3>
+                <h4 class="mt30"><img src="./images/ir/financial_dfn.png" alt="#"></h4>
+              </div>
+              <div class="chart">
+                <select class="opt" onclick="alert('준비중입니다')">
+                  <option value="2022" class="opt option">2022</option>
+                  <option value="2021" class="opt option">2021</option>
+                  <option value="2020" class="opt option">2020</option>
+                </select>
+  
+                <ul class="list mt20">
+                  <li class="list_1">
+                    <div class="asset">
+                        <span class="data_label"><img src="./images/ir/financial_chart_61th_asset_data_label.png" alt="#"></span>
+                        <i class="data mt20"></i>
+                    </div>
+                    <div class="debt">
+                        <span class="data_label"><img src="./images/ir/financial_chart_61th_debt_data_label.png" alt="#"></span>
+                        <i class="data mt20"></i>
+                    </div>
+                    <div class="capital">
+                        <span class="data_label"><img src="./images/ir/financial_chart_61th_capital_data_label.png" alt="#"></span>
+                        <i class="data mt20"></i>
+                    </div>
+                  </li>
+                  <li class="list_2">
+                    <div class="asset">
+                        <span class="data_label"><img src="./images/ir/financial_chart_62th_asset_data_label.png" alt="#"></span>
+                        <i class="data mt20"></i>
+                    </div>
+                    <div class="debt">
+                        <span class="data_label"><img src="./images/ir/financial_chart_62th_debt_data_label.png" alt="#"></span>
+                        <i class="data mt20"></i>
+                    </div>
+                    <div class="capital">
+                        <span class="data_label"><img src="./images/ir/financial_chart_62th_capital_data_label.png" alt="#"></span>
+                        <i class="data mt20"></i>
+                    </div>
+                  </li>
+                  <li class="list_3">
+                    <div class="asset">
+                        <span class="data_label"><img src="./images/ir/financial_chart_63th_asset_data_label.png" alt="#"></span>
+                        <i class="data mt20"></i>
+                    </div>
+                    <div class="debt">
+                        <span class="data_label"><img src="./images/ir/financial_chart_63th_debt_data_label.png" alt="#"></span>
+                        <i class="data mt20"></i>
+                    </div>
+                    <div class="capital">
+                        <span class="data_label"><img src="./images/ir/financial_chart_63th_capital_data_label.png" alt="#"></span>
+                        <i class="data mt20"></i>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </article>
+          </section>
+  
+          <section id="section03" class="presentations notice board">
+            <article class="inner01">
+              <div class="txt_area area01 mt200 fadeInUp_inner">
+                <h5><img src="./images/ir/presentations_em.png" alt="#"></h5>
+                <h4 class="mt65"><img src="./images/ir/presentations_tit_1.png" alt="#">
+                  <img src="./images/ir/presentations_tit_2.png" alt="#">
+                  <img src="./images/ir/presentations_tit_3.png" alt="#">
+                </h4>
+              </div>
+  
+              <div class="board_head search txt_bg mt40">
+                <select class="opt opt_1" onclick="alert('준비중입니다')">
+                  <option value="" class="opt option">전체</option>
+                </select>
+                <select class="opt opt_2" onclick="alert('준비중입니다')">
+                  <option value="" class="opt option">제목</option>
+                </select>
+                <div class="placeholder">
+                  <input type="text" class="opt text" placeholder="검색어를 입력해주세요." />
+                  <button type="button" onclick="alert('준비중 입니다.');" class="btn">
+                      <img src="./images/common/search_text_ico.png" alt="">
+                  </button>
+                </div>
+              </div>
+            
+              <div class="board_content area01">
+                <ul class="list sty02 fadeInUp_inner">
+                  <li class="list_1">
+                    <div class="desc"><img src="./images/ir/presentations_list_1.jpg" alt=""></div>
+                    <button type="button" onclick="alert('준비중 입니다.');" class="btn_view">
+                      <i class="ico"><img src="./images/common/board_view_ico.png" alt=""></i>
+                    </button>
+                  </li>
+                  <li class="list_2">
+                    <div class="desc"><img src="./images/ir/presentations_list_2.jpg" alt=""></div>
+                    <button type="button" onclick="alert('준비중 입니다.');" class="btn_down">
+                      <i class="ico"><img src="./images/common/board_down_ico.png" alt=""></i>
+                    </button>
+                  </li>
+                  <li class="list_3">
+                    <div class="desc"><img src="./images/ir/presentations_list_3.jpg" alt=""></div>
+                    <button type="button" onclick="alert('준비중 입니다.');" class="btn_down">
+                      <i class="ico"><img src="./images/common/board_down_ico.png" alt=""></i>
+                    </button>
+                  </li>
+                  <li class="list_4">
+                    <div class="desc"><img src="./images/ir/presentations_list_4.jpg" alt=""></div>
+                    <button type="button" onclick="alert('준비중 입니다.');" class="btn_view">
+                      <i class="ico"><img src="./images/common/board_view_ico.png" alt=""></i>
+                    </button>
+                  </li>
+                  <li class="list_5">
+                    <div class="desc"><img src="./images/ir/presentations_list_5.jpg" alt=""></div>
+                    <button type="button" onclick="alert('준비중 입니다.');" class="btn_view">
+                      <i class="ico"><img src="./images/common/board_view_ico.png" alt=""></i>
+                    </button>
+                  </li>
+                  <li class="list_6">
+                    <div class="desc"><img src="./images/ir/presentations_list_6.jpg" alt=""></div>
+                    <button type="button" onclick="alert('준비중 입니다.');" class="btn_down">
+                      <i class="ico"><img src="./images/common/board_down_ico.png" alt=""></i>
+                    </button>
+                  </li>
+                  <li class="list_7">
+                    <div class="desc"><img src="./images/ir/presentations_list_7.jpg" alt=""></div>
+                    <button type="button" onclick="alert('준비중 입니다.');" class="btn_down">
+                      <i class="ico"><img src="./images/common/board_down_ico.png" alt=""></i>
+                    </button>
+                  </li>
+                  <li class="list_8">
+                    <div class="desc"><img src="./images/ir/presentations_list_8.jpg" alt=""></div>
+                    <button type="button" onclick="alert('준비중 입니다.');" class="btn_view">
+                      <i class="ico"><img src="./images/common/board_view_ico.png" alt=""></i>
+                    </button>
+                  </li>
+                </ul>
+              </div>
+    
+              <div class="board_foot pagination mt65">
+                <div class="sequence prev">                    
+                  <button type="button" onclick="alert('준비중 입니다.');" class=" on">
+                    <img src="./images/common/pagination_ico_fst_prev.png" alt="">
+                  </button>
+                  <button type="button" onclick="alert('준비중 입니다.');" class="">
+                      <img src="./images/common/pagination_ico_prev.png" alt="">
+                  </button>
+                </div>
+    
+                <ol class="list ml35 mr35">
+                  <li class="num_1 on" onclick="alert('준비중 입니다.');"><img src="./images/common/pagination_num_1_on.png" alt="#"></li>
+                  <li class="num_2" onclick="alert('준비중 입니다.');"><img src="./images/common/pagination_num_2.png" alt="#"></li>
+                  <li class="num_3" onclick="alert('준비중 입니다.');"><img src="./images/common/pagination_num_3.png" alt="#"></li>
+                  <li class="num_4" onclick="alert('준비중 입니다.');"><img src="./images/common/pagination_num_4.png" alt="#"></li>
+                  <li class="num_5" onclick="alert('준비중 입니다.');"><img src="./images/common/pagination_num_5.png" alt="#"></li>
+                  <li class="num_6" onclick="alert('준비중 입니다.');"><img src="./images/common/pagination_num_6.png" alt="#"></li>
+                  <li class="num_7" onclick="alert('준비중 입니다.');"><img src="./images/common/pagination_num_7.png" alt="#"></li>
+                  <li class="num_8" onclick="alert('준비중 입니다.');"><img src="./images/common/pagination_num_8.png" alt="#"></li>
+                  <li class="num_9" onclick="alert('준비중 입니다.');"><img src="./images/common/pagination_num_9.png" alt="#"></li>
+                  <li class="num_10" onclick="alert('준비중 입니다.');"><img src="./images/common/pagination_num_10.png" alt="#"></li>
+                </ol>
+    
+                <div class="sequence next">
+                  <button type="button" onclick="alert('준비중 입니다.');" class="">
+                      <img src="./images/common/pagination_ico_next.png" alt="">
+                  </button>
+                  <button type="button" onclick="alert('준비중 입니다.');" class=" on">
+                    <img src="./images/common/pagination_ico_lst_next.png" alt="">
+                  </button>
+                </div>
+              </div>
+            </article>
+          </section>
+  
+          <section id="section04" class="shareholders bg nav_off">
+            <article class="inner01">
+              <div class="txt_area area01 mt200 fadeInUp_inner">
+                <h3><img src="./images/ir/shareholders_tit.png" alt="#"></h3>
+                <h4 class="mt30"><img src="./images/ir/shareholders_dfn.png" alt="#"></h4>
+              </div>
+              <div class="pie_chart">
+                <h5><img src="./images/ir/shareholders_pie_chart_em.png" alt="#"></h5>
+                <ul class="list fadeInRight_inner">
+                    <li class="list_1">
+                        <span class="percent"><img src="./images/ir/shareholders_itm01_percent.png" alt="#"></span>
+                        <span class="dfn"><img src="./images/ir/shareholders_itm01_dfn.png" alt="#"></span>
+                        <span class="amount"><img src="./images/ir/shareholders_itm01_amount.png" alt="#"></span>
+                    </li>
+                    <li class="list_2">
+                        <span class="percent"><img src="./images/ir/shareholders_itm02_percent.png" alt="#"></span>
+                        <span class="dfn"><img src="./images/ir/shareholders_itm02_dfn.png" alt="#"></span>
+                        <span class="amount"><img src="./images/ir/shareholders_itm02_amount.png" alt="#"></span>
+                    </li>
+                    <li class="list_3">
+                        <span class="percent"><img src="./images/ir/shareholders_itm03_percent.png" alt="#"></span>
+                        <span class="dfn"><img src="./images/ir/shareholders_itm03_dfn.png" alt="#"></span>
+                        <span class="amount"><img src="./images/ir/shareholders_itm03_amount.png" alt="#"></span>
+                    </li>
+                    <li class="list_4">
+                        <span class="percent"><img src="./images/ir/shareholders_itm04_percent.png" alt="#"></span>
+                        <span class="dfn"><img src="./images/ir/shareholders_itm04_dfn.png" alt="#"></span>
+                        <span class="amount"><img src="./images/ir/shareholders_itm04_amount.png" alt="#"></span>
+                    </li>
+                    <li class="list_5">
+                        <span class="percent"><img src="./images/ir/shareholders_itm05_percent.png" alt="#"></span>
+                        <span class="dfn"><img src="./images/ir/shareholders_itm05_dfn.png" alt="#"></span>
+                        <span class="amount"><img src="./images/ir/shareholders_itm05_amount.png" alt="#"></span>
+                    </li>
+                </ul>
+                <i class="pie_chart"></i>
+              </div>
+            </article>
+          </section>
+  
+          <section id="section05" class="events notice board calendar">
+            <article class="inner01">
+              <div class="txt_area area01 mt200 fadeInUp_inner">
+                <h5><img src="./images/ir/events_em.png" alt="#"></h5>
+                <h3 class="f45_l65 mt65 fadeInUp_inner"><img src="./images/ir/events_tit_1.png" alt="#">
+                  <img src="./images/ir/events_tit_2.png" alt="#">
+                </h3>
+              </div>
+              
+              <div class="board_head mt35">
+                <div class="area01">
+                  <div class="btn_inner sty01">
+                    <button type="button" class="btn_prev">
+                        <img src="./images/common/ico_1_prev.png" alt="">
+                    </button>
+                    <button type="button" class="btn_next">
+                        <img src="./images/common/ico_1_next.png" alt="">
+                    </button>
+                  </div>
+    
+                  <div class="time">
+                    <span class="month"><img src="./images/common/calendar_month_04.png" alt=""></span>
+                    <span class="year"><img src="./images/common/calendar_year_2023.png" alt=""></span>
+                  </div>
+                </div>
+  
+                <div class="day mt20">
+                  <div id="calendarSwiper" class="">  
+                    <ol class="list swiper-wrapper">
+                      <li class="swiper-slide day_17 on" onclick="alert('준비중 입니다.');"><img src="./images/common/calendar_day_17.png" alt="#"></li>
+                      <li class="swiper-slide day_18" onclick="alert('준비중 입니다.');"><img src="./images/common/calendar_day_18.png" alt="#"></li>
+                      <li class="swiper-slide day_19" onclick="alert('준비중 입니다.');"><img src="./images/common/calendar_day_19.png" alt="#"></li>
+                      <li class="swiper-slide day_20" onclick="alert('준비중 입니다.');"><img src="./images/common/calendar_day_20.png" alt="#"></li>
+                      <li class="swiper-slide day_21" onclick="alert('준비중 입니다.');"><img src="./images/common/calendar_day_21.png" alt="#"></li>
+                      <li class="swiper-slide day_22" onclick="alert('준비중 입니다.');"><img src="./images/common/calendar_day_22.png" alt="#"></li>
+                      <li class="swiper-slide day_23" onclick="alert('준비중 입니다.');"><img src="./images/common/calendar_day_23.png" alt="#"></li>
+                      <li class="swiper-slide day_24" onclick="alert('준비중 입니다.');"><img src="./images/common/calendar_day_24.png" alt="#"></li>
+                      <li class="swiper-slide day_25" onclick="alert('준비중 입니다.');"><img src="./images/common/calendar_day_25.png" alt="#"></li>
+                      <li class="swiper-slide day_26" onclick="alert('준비중 입니다.');"><img src="./images/common/calendar_day_26.png" alt="#"></li>
+                      <li class="swiper-slide day_27" onclick="alert('준비중 입니다.');"><img src="./images/common/calendar_day_27.png" alt="#"></li>
+                      <li class="swiper-slide day_28" onclick="alert('준비중 입니다.');"><img src="./images/common/calendar_day_28.png" alt="#"></li>
+                      <li class="swiper-slide day_29" onclick="alert('준비중 입니다.');"><img src="./images/common/calendar_day_29.png" alt="#"></li>
+                      <li class="swiper-slide day_30" onclick="alert('준비중 입니다.');"><img src="./images/common/calendar_day_30.png" alt="#"></li>
+                      <li class="swiper-slide day_31" onclick="alert('준비중 입니다.');"><img src="./images/common/calendar_day_31.png" alt="#"></li>
+                      <li class="swiper-slide day_1" onclick="alert('준비중 입니다.');"><img src="./images/common/calendar_day_1.png" alt="#"></li>
+                      <li class="swiper-slide day_2" onclick="alert('준비중 입니다.');"><img src="./images/common/calendar_day_2.png" alt="#"></li>
+                      <li class="swiper-slide day_3 on" onclick="alert('준비중 입니다.');"><img src="./images/common/calendar_day_3.png" alt="#"></li>
+                      <li class="swiper-slide day_4" onclick="alert('준비중 입니다.');"><img src="./images/common/calendar_day_4.png" alt="#"></li>
+                      <li class="swiper-slide day_5" onclick="alert('준비중 입니다.');"><img src="./images/common/calendar_day_5.png" alt="#"></li>
+                      <li class="swiper-slide day_6" onclick="alert('준비중 입니다.');"><img src="./images/common/calendar_day_6.png" alt="#"></li>
+                      <li class="swiper-slide day_7" onclick="alert('준비중 입니다.');"><img src="./images/common/calendar_day_7.png" alt="#"></li>
+                      <li class="swiper-slide day_8" onclick="alert('준비중 입니다.');"><img src="./images/common/calendar_day_8.png" alt="#"></li>
+                      <li class="swiper-slide day_9" onclick="alert('준비중 입니다.');"><img src="./images/common/calendar_day_9.png" alt="#"></li>
+                      <li class="swiper-slide day_10" onclick="alert('준비중 입니다.');"><img src="./images/common/calendar_day_10.png" alt="#"></li>
+                      <li class="swiper-slide day_11 on" onclick="alert('준비중 입니다.');"><img src="./images/common/calendar_day_11.png" alt="#"></li>
+                      <li class="swiper-slide day_12" onclick="alert('준비중 입니다.');"><img src="./images/common/calendar_day_12.png" alt="#"></li>
+                      <li class="swiper-slide day_13" onclick="alert('준비중 입니다.');"><img src="./images/common/calendar_day_13.png" alt="#"></li>
+                      <li class="swiper-slide day_14" onclick="alert('준비중 입니다.');"><img src="./images/common/calendar_day_14.png" alt="#"></li>
+                      <li class="swiper-slide day_15" onclick="alert('준비중 입니다.');"><img src="./images/common/calendar_day_15.png" alt="#"></li>
+                      <li class="swiper-slide day_16" onclick="alert('준비중 입니다.');"><img src="./images/common/calendar_day_16.png" alt="#"></li>
+                    </ol>                
+                  </div>
+                </div>
+              </div>
+  
+              <div class="board_content area01 mt20">              
+                <ul class="list fadeInUp_inner">
+                    <li class="list_1 btn pt70 pb20">
+                      <div class="desc"><img src="./images/ir/events_board_list_1.png" alt=""></div>
+                      <div class="btn_inner">
+                          <button type="button" onclick="alert('준비중 입니다.');" class="btn_view">
+                            <i class="txt"><img src="./images/common/board_view_txt.png" alt=""></i>
+                            <i class="ico"><img src="./images/common/board_view_ico.png" alt=""></i>
+                          </button>
+                          <button type="button" onclick="alert('준비중 입니다.');" class="btn_down">
+                            <i class="txt"><img src="./images/common/board_view_txt.png" alt=""></i>
+                            <i class="ico"><img src="./images/common/board_down_ico.png" alt=""></i>
+                          </button>
+                      </div>
+                    </li>
+                    <li class="list_2 btn pt70 pb20">
+                      <div class="desc"><img src="./images/ir/events_board_list_2.png" alt=""></div>
+                      <div class="btn_inner">
+                          <button type="button" onclick="alert('준비중 입니다.');" class="btn_view">
+                            <i class="txt"><img src="./images/common/board_view_txt.png" alt=""></i>
+                            <i class="ico"><img src="./images/common/board_view_ico.png" alt=""></i>
+                          </button>
+                          <button type="button" onclick="alert('준비중 입니다.');" class="btn_down">
+                            <i class="txt"><img src="./images/common/board_view_txt.png" alt=""></i>
+                            <i class="ico"><img src="./images/common/board_down_ico.png" alt=""></i>
+                          </button>
+                      </div>
+                    </li>
+                    <li class="list_3 pt70 pb20">
+                      <div class="desc"><img src="./images/ir/events_board_list_3.png" alt=""></div>
+                    </li>
+                </ul>
+              </div>
+            </article>
+          </section>
+  
+          <section id="section06" class="inquiry">
+            <article class="inner01">
+              <div class="txt_area area01 mt100 fadeInUp_inner">                
+                 <h5><img src="./images/ir/inquiry_em.png" alt="#" class=""></h5>
+                 <h4 class="mt65 fadeInUp_inner"><img src="./images/ir/inquiry_tit_1.png" alt="#">
+                  <img src="./images/ir/inquiry_tit_2.png" alt="#">
+                </h4>
+              </div>
+    
+              <figure class="flow_area mt90">
+                <img src="./images/ir/inquiry_flow_txt.png" alt="">
+                <img src="./images/ir/inquiry_flow_txt.png" alt="">
+                <img src="./images/ir/inquiry_flow_txt.png" alt="">
+              </figure>            
+    
+              <div class="form_inner area01 mt45">              
+                <form class="form pb70">
+                  <fieldset class="privacypolicy">
+                    <div id="ScrollContainerSwiper" class="swiper-initialized swiper-vertical">  
+                      <div class="list swiper-wrapper">
+                        <div class="swiper-slide mb50">
+                          <p class=""><img src="./images/ir/inquiry_scroll_txt_1.png" alt=""></p>
+                          <p class="mt40"><img src="./images/ir/inquiry_scroll_txt_2.png" alt=""></p>
+                        </div>
+                      </div>
+                      <div class="swiper-scrollbar"></div>
+                    </div>
+                    <div class="checkbox mt25">
+                      <input type="checkbox" class="chk" />
+                      <label for="check1" class="ml10 mr5"><img src="./images/ir/inquiry_form_txt.png" alt=""></label>
+                    </div>
+                  </fieldset>
+    
+                  <fieldset class="field">
+                    <legend><img src="./images/ir/inquiry_form_legend_field.png" alt="#"></legend>
+                      <input type="text" class="text field mt20" placeholder="상담분야을 선택하세요." />
+                  </fieldset>
+    
+                  <fieldset class="name">
+                    <legend><img src="./images/ir/inquiry_form_legend_name.png" alt="#"></legend>
+                      <input type="text" class="text name mt20" placeholder="이름을 입력해주세요." />
+                  </fieldset>
+    
+                  <fieldset class="belong">
+                    <legend><img src="./images/ir/inquiry_form_legend_belong.png" alt="#"></legend>
+                    <input type="text" class="text belong mt20" placeholder="상담받을 소속을 선택하세요." />
+                  </fieldset>
+    
+                  <fieldset class="contact">
+                    <legend><img src="./images/ir/inquiry_form_legend_contact.png" alt="#"></legend>
+                    <input type="text" class="text contact mt20" placeholder="연락가능한 전화번호를 입력해주세요." />
+                  </fieldset>
+    
+                  <fieldset class="mail">
+                    <legend><img src="./images/ir/inquiry_form_legend_mail.png" alt="#"></legend>
+                    <span class="desc mt5"><img src="./images/ir/inquiry_form_legend_mail_desc.png" alt="#"></span>
+                    <input type="text" class="text mail mt20" placeholder="답변받는 이메일을 입력해주세요." />
+                  </fieldset>
+    
+                  <fieldset class="title">
+                    <legend><img src="./images/ir/inquiry_form_legend_title.png" alt="#"></legend>
+                    <input type="text" class="text title mt20" placeholder="문의하는 제목을 입력해주세요." />
+                  </fieldset>
+    
+                  <fieldset class="detail">
+                    <legend><img src="./images/ir/inquiry_form_legend_detail.png" alt="#"></legend>
+                    <textarea class="text detail mt20" placeholder="내용을 입력해주세요." name="detail"></textarea>
+                  </fieldset>
+    
+                  <fieldset class="attachment mt45">
+                    <legend><img src="./images/ir/inquiry_form_legend_attachment.png" alt="#"></legend>
+                    <span class="desc mt5"><img src="./images/ir/inquiry_form_legend_attachment_desc.png" alt="#"></span>
+                    <input type="text" class="text attachment mt20" placeholder="첨부파일을 넣어주세요." />
+                    <button type="button" onclick="alert('준비중 입니다.');" class="btn_search mt20">
+                        <img src="./images/common/btn_search_txt.png" alt="">
+                    </button>
+                  </fieldset>
+                </form>
+                <button type="button" onclick="alert('준비중 입니다.');" class="btn_send set mt55">
+                    <img src="./images/common/btn_send_txt.png" alt="">
+                </button>
+              </div>
+            </article>
+          </section>
+  
+          <footer id="footer" class="bg nav_off">
+            <article class="inner01 set">
+              <div class="txt_area contact">
+                <h3><img src="./images/footer/contact_tit.png" alt="Contact"></h3>
+                <p class="mt40"><img src="./images/footer/contact_txt.png" alt="본사 직영의 전국 4개의 영업소에서 다양한 용도와 규격의 제품 정보를 만나보십시오."></p>
+                
+                <button type="button" class="btn_more_bar mt70" onclick="alert('준비중 입니다.');">
+                  <img src="./images/footer/contact_btn_txt.png">
+                </button>
+              </div>
+            </article>
+    
+            <article class="inner02 set">
+              <p class="tit"><img src="./images/footer/copyright_txt.png" alt="Writes History of Korean Steel Pipe Industry."></p>
+              <p class="txt"><img src="./images/footer/copyright.png" alt="ⓒ 2022.SeAH Steel Corp. All Rights Reserved."></p>
+    
+              <nav class="fnb_inner">
+                <a class="fnb_1" href="#"><img src="./images/footer/fnb_1.png" alt="사이트안내"></a>
+                <a class="fnb_2" href="#"><img src="./images/footer/fnb_2.png" alt="개인정보처리방침"></a>
+                <a class="fnb_3" href="#"><img src="./images/footer/fnb_3.png" alt="이용약관"></a>
+                <a class="fnb_4" href="#"><img src="./images/footer/fnb_4.png" alt="이메일무단수집거부"></a>
+                <a class="fnb_5" href="#"><img src="./images/footer/fnb_5.png" alt="사이버감사실"></a>
+              </nav>
+    
+              <select class="family_site_inner" onclick="alert('준비중입니다')">
+                <option value="family_site" class="family_site" select="select">Family Site</option>
+              </select>
+    
+              <address class="address"><img src="./images/footer/address.png" alt="대표번호 : 02.2018.5114"></address>
+            </article>
+          </footer>
+        </div>
+      </section>
+  
+      <script src="../common/js/plugin/gsap.min.js"></script>
+      <script src="../common/js/plugin/ScrollTrigger.min.js"></script>
+      <script src="../common/js/plugin/ScrollMagic.min.js"></script> <!-- ScrollMagic -->
+      <script src="../common/js/plugin/animation.gsap.min.js"></script> <!-- ScrollMagic -->
+      <script src="../common/js/plugin/debug.addIndicators.min.js"></script> <!-- ScrollMagic -->
+      <script src="../common/js/plugin/swiper.min.js"></script>
+      <script src="../common/js/plugin/slick.min.js"></script>
+      <script src="../common/js/scrollbar.js"></script>
+      <script src="../common/js/ScrollMagicAnimate.js"></script>
+      <script src="../common/js/common.js"></script>
+      <script src="js/swiper.js"></script>
+      <script src="js/common.js"></script>
+    </body>
+      
+</html>
