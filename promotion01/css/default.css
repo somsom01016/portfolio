@@ -1,0 +1,230 @@
+button {z-index: 999;}
+
+/* 히어로 이미지 */
+article {height: inherit;}
+
+.flow_area {
+  display: flex;
+  width: 100vw;
+  z-index: 100;
+}
+.flow_area > * {animation: bul_hori_1 10s linear infinite;}
+.bul {position: relative;}
+.bul::after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: -18px;
+  left: -12px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #ffe300;
+}
+
+#hero {
+  display: flex;
+  justify-content: flex-end;
+  height: 1080px;
+  background: url(../images/hero/bg.png) -50% top no-repeat;
+  z-index: 10;
+}
+#hero article {
+  margin-left: initial;
+  transform: initial;
+}
+h1 {
+  position: absolute;
+  left: 35px;
+  top: 33px;
+}
+
+#hero .left_area {width: calc(50vw - 140px); max-width: 820px;}
+#hero .left_area > * {
+  position: absolute;
+  right: 0;
+}
+#hero .left_area .obj {left: 87px; top: 103px;}
+#hero .left_area h2 {
+  position: relative;
+  margin-top: 647px;
+  margin-left: 34px;
+  z-index: 100;
+}
+#hero .left_area h2 img:nth-child(2) {margin-top: 33px;}
+#hero .left_area h2 img:nth-child(3) {margin-top: -2px;}
+
+#hero .right_area {
+  width: calc(50vw + 140px);
+  background-color: #b7efe3;
+}
+#hero .right_area aside img:nth-child(1) {left: 964px; top: -192px;}
+#hero .right_area aside img:nth-child(2) {left: 820px; top: -41px;}
+#hero .right_area .img {position: relative; margin-left: 140px; margin-top: 130px;}
+#hero .right_area .rotate {left: -78px; top: -84px;}
+#hero .right_area .obj {left: 488px; top: 552px;}
+
+#hero aside,
+#hero aside img,
+#hero .rotate,
+#hero .obj {position: absolute;}
+#hero .circle {position: absolute;}
+figure {z-index: 10;}
+.multiply {mix-blend-mode: multiply; z-index: 1;}
+#wrap section {position: relative;}
+#sec01 {height: 2223px; z-index: 100;}
+#sec02 {height: 3122px; z-index: 100;}
+#sec03 {height: 1475px;}
+#sec04 {height: 2600px;}
+#sec05 {height: 3600px;}
+#sec06 {height: 1940px;}
+#sec01 .arr {
+  position: absolute;
+  left: 1246px;
+  top: 1006px;
+  z-index: 100;
+}
+#sec01 .btn_more {
+  position: absolute;
+  left: 1528px;
+  top: 1135px;
+  z-index: 100;
+}
+#sec01 .shape_1 {
+  border-radius: 50%;
+  background-color: rgb(254, 222, 225);
+  position: absolute;
+  left: 1731px;
+  top: 305px;
+  width: 800px;
+  height: 800px;
+  z-index: 100;
+}
+#sec01 .shape_2 {
+  border-radius: 50%;
+  background-color: rgb(203, 238, 228);
+  position: absolute;
+  left: -167px;
+  top: 1400px;
+  width: 349px;
+  height: 350px;
+  z-index: 100;
+}
+
+#sec02 .itm_1 {
+  position: absolute;
+  left: 202px;
+  top: 2128px;
+}
+#sec02 .itm_2 {
+  position: absolute;
+  left: 1234px;
+  top: 2810px;
+}
+#sec02 .itm_1 .obj {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  animation: obj_rotate_1 2s linear infinite;
+}
+#sec02 .itm_1 .multiply {
+  position: absolute;
+  left: 25px;
+  top: 4px;
+  animation: obj_rotate_1 2s linear infinite;
+}
+#sec02 .itm_1 .btn_more {
+  position: absolute;
+  left: 690px;
+  top: 748px;
+}
+
+#sec02 {background: url(../images/section/02_bg.png) repeat-x;}
+#sec03 {background-color: #fcfbf4;}
+#sec04 {background: url(../images/section/04_bg.png) repeat-x;}
+#sec05 {background: url(../images/section/05_bg.png) center top no-repeat, #fcfbf4;}
+#sec06 {background: url(../images/section/02_bg.png) repeat-x;}
+
+#sec04 .rotate {
+  position: absolute;
+  left: 293px;
+  top: 117px;
+}
+#sec04 .itm_1 {
+  position: absolute;
+  left: 1157px;
+  top: -186px;
+}
+#sec04 .itm_2 {
+  position: absolute;
+  left: 1133px;
+  top: 536px;
+}
+
+#sec04 .itm_1 .obj {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+#sec04 .itm_1 .multiply {
+  position: absolute;
+  left: 125px;
+  top: 5px;
+}
+
+#sec05 .rotate {
+  position: absolute;
+  left: 529px;
+  top: 2601px;
+}
+#sec05 .btn_more {
+  position: absolute;
+  left: 1508px;
+  top: 1960px;
+  z-index: 300;
+}
+#sec05 .itm_1 {
+  position: absolute;
+  left: -60px;
+  top: 2365px;
+  z-index: 100;
+}
+#sec05 .itm_2 {
+  position: absolute;
+  left: 557px;
+  top: 2931px;
+  z-index: 100;
+}
+#sec05 strong {
+  position: absolute;
+  left: 33px;
+  top: 3250px;
+  opacity: 0.3;
+}
+#sec05 strong .txt_1 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+#sec05 strong .txt_2 {
+  position: absolute;
+  left: 0px;
+  top: 220px;
+}
+#sec06 .rotate {
+  position: absolute;
+  left: 162px;
+  top: 898px;
+}
+
+footer {
+  position: relative;
+  width: 100vw;
+  height: 253px;
+  z-index: 500;
+  background-color: #252828;
+}
+#sec01 .arr {
+  transform-origin: bottom left;
+  animation: obj_arr 2s linear infinite;
+}

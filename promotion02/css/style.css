@@ -1,0 +1,320 @@
+#container {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+
+.posNum {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  width: 300px;
+  height: 50px;
+  margin: -25px 0 0 -150px;
+  background: rgba(0,0,0,0.6);
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 50px;
+  z-index: 9999;
+}
+
+body {
+  font-family: 'yoongothic700', 'sans-serif';
+  background-color: #000020;
+  line-height: 0;
+}
+footer, #wrap > * {width: 100vw;}
+article {width: inherit;}
+#wrap article {
+  position: relative;
+  overflow: visible;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+
+[class^="inner"] {
+  position: relative;
+  overflow: visible;
+  width: inherit;
+}
+
+[class*="_area"] {
+  position: relative;
+  display: inline-block;
+  overflow: visible;
+  width: inherit;
+}
+
+[class^="inner"].set {
+  width: 100vw;
+  max-width: 1920px;
+  min-width: 1920px;
+}
+
+.set {
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+
+
+strong {display: block;}
+h2, h3, h4, h5, h6, dt, dd, p, strong {white-space : pre-line;}
+
+h2::first-line,
+h3::first-line,
+h4::first-line,
+h5::first-line,
+h6::first-line,
+dt::first-line,
+dd::first-line,
+p::first-line,
+strong::first-line {line-height: 0; vertical-align: top;}
+
+
+
+h2 img,
+h3 img,
+h4 img,
+h5 img,
+h6 img,
+dt img,
+dd img,
+p img,
+strong img
+{vertical-align: bottom;}
+
+dd, p {}
+
+h1 {}
+h1 img.on {opacity: 0;}
+h1 img.on {position: absolute; left: 0; top: 0;}
+button {position: relative; transition: 0.5s;}
+button img.hover {opacity: 0;}
+button img.hover {position: absolute; left: 0; top: 0;}
+button:hover img {opacity: 0;}
+button:hover img.hover {opacity: 1;}
+button[class^="btn_"]::after {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  transition: 0.5s;
+}
+button[class^="btn_"] img {transition: 1s;}
+button[class^="btn_"].set::after {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  transition: 0.5s;
+}
+
+
+
+
+
+.bg {position: relative;}
+.bg > * {position: relative; z-index: 10;}
+.bg::after {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 0;
+  width: 100%;
+  height: inherit;
+  background-repeat: no-repeat;
+  background-position: center top;
+  z-index: 1;
+}
+
+.noise_bg {
+  max-width: 100% !important;
+  min-width: 100% !important;
+  height: inherit;
+}
+.noise_bg::before,
+.noise_bg::after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: inherit;
+  height: inherit;
+  background-color: #2b2a29;
+  z-index: -1;
+}
+
+.noise_bg {position: relative; width: 100vw;}
+.noise_bg::before {opacity: 1;}
+.noise_bg::after {
+  background-blend-mode: multiply;
+  background: url(../images/common/noise.gif) repeat center top;
+}
+
+.full_screen {
+  width: 100vw;
+  height: 100vh;
+  min-height: 1080px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+
+
+
+
+
+
+#coupon .inner01.noise_bg::after {
+  background-color: #ced0f7;
+  opacity: 0.05;
+}
+#coupon .inner01.noise_bg::before{
+  background-color: #ced0f7;
+}
+
+
+
+
+
+
+.bg {position: relative;}
+.bg > * {position: relative; z-index: 10;}
+.bg::after {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 0;
+  width: 100%;
+  height: inherit;
+  background-repeat: no-repeat;
+  background-position: center top;
+  z-index: 1;
+}
+
+
+
+[class^="inner"].noise_bg {
+  max-width: 100% !important;
+  min-width: 100% !important;
+}
+
+.noise_bg::before,
+.noise_bg::after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: inherit;
+  height: inherit;
+  z-index: -1;
+}
+
+.noise_bg {position: relative; width: 100vw;}
+.noise_bg::after {
+  background-blend-mode :multiply;
+  background: url(../images/common/noise.gif) repeat center top;
+}
+
+
+.screen {mix-blend-mode: screen;}
+.multiply {mix-blend-mode: multiply;}
+.overlay {mix-blend-mode: overlay;}
+.luminosity {mix-blend-mode: luminosity;}
+.color {mix-blend-mode: color;}
+.dodge {mix-blend-mode: color-dodge;}
+
+#hero {overflow: hidden;}
+#hero {z-index: 9999;}
+#hero article {
+  display: inline-flex;
+  justify-content: center;
+  margin-left: initial !important;
+  transform: initial !important;
+}
+
+#hero figure[class*="obj_"] {width: 50%; position: absolute;}
+#hero figure[class*="obj"] > * {position: absolute;}
+#hero .obj_1 .obj {left: 221px; top: 13px;}
+#hero .obj_1 .obj_1 {left: 222px; top: 12px;}
+#hero .obj_1 .obj_2 {left: 222px; top: 12px;}
+#hero .obj_2 .obj {top: 302px; right: 443px;}
+#hero .obj_1 {right: 0;}
+#hero .obj_2 {left: 0;}
+#hero .bg {position: absolute; z-index: -1;}
+#hero .txt_bg {position: absolute; top: 55px;}
+#hero h2 {
+  position: absolute;
+  top: 187px;
+  width: 1330px;
+  height: 750px;
+}
+#hero h2 {}
+#hero h2 > * {position: absolute;} 
+
+/* ========== header ========== */
+
+
+header {
+  height: 250px;
+  background-color: #1a1a1a;
+}
+header .list_area {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: inherit;
+  width: 1715px;
+}
+header .list_area li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 428px;
+  height: 50px;
+}
+header .list_area li + li::after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: -2px;
+  width: 2px;
+  height: 50px;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+header .list_area li + li {margin-left: 2px;}
+header .list_area li:nth-child(1) button {margin-right: -14px; margin-bottom: -7px;}
+header .list_area li:nth-child(4) button {margin-right: -14px; margin-bottom: -7px;}
+
+
+footer {
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  background-color: #252828;
+}
+footer article {
+  display: inline-flex;
+  justify-content: space-between;
+  width: 1100px;
+  height: initial;
+  margin-left: initial !important;
+  transform: initial !important;
+  margin-top: 64px;
+}
+footer article h6 {margin-top: 10px;}
+footer article p {width: 948px;}

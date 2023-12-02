@@ -1,0 +1,150 @@
+
+/* 히어로 이미지 */
+article {height: inherit;}
+button .on {opacity: 0;}
+#hero {
+  height: 1200px;
+  background: url(../images/hero/bg.png) center top no-repeat;
+  background-color: #5e4131;
+  z-index: 500;
+}
+
+#hero .obj_area {position: absolute; left: 0; top: 0;}
+#hero .obj_area figure {position: absolute;}
+#hero .obj_area .obj_1 {left: 416px; top: -37px;}
+#hero .obj_area .obj_2 {left: 420px; top: 107px;}
+#hero .obj_area .obj_3 {left: 210px; top: 102px;}
+#hero .obj_area .obj_4 {left: 1460px; top: 170px;}
+#hero .obj_area .obj_5 {left: 1690px; top: 286px;}
+#hero .obj_area .obj_6 {left: 124px; top: 598px;}
+#hero .obj_area .obj_7 {left: 0px; top: 823px;}
+#hero .obj_area .obj_8 {left: 1507px; top: 881px;}
+#hero .obj_area .obj_9 {left: 350px; top: 340px;}
+#hero .obj_area .obj_10 {left: 1438px; top: 1021px;}
+#hero h2 {position: absolute; left: 328px; top: 18px;}
+
+
+#quiz {
+  height: 800px;
+  background-color: #f8d45b;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-image: url(../images/quiz/bg.png);
+  overflow: hidden;
+}
+#quiz h3 {margin-top: 78px;}
+#quiz .character {position: absolute; left: 32px; top: 448px;}
+#quiz .hint {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 340px;
+  margin-top: 65px;
+}
+#quiz .hint legend {margin-top: 72px;}
+#quiz .hint fieldset {}
+#quiz .hint fieldset input {
+  width: 100px;
+  height: 100px;
+  margin-top: 30px;
+  border: none;
+  border-radius: 10px;
+  background-color: transparent;
+  font-size: 50px;
+  text-align: center;
+}
+#quiz .hint fieldset input:nth-child(1) {margin-right: 50px;}
+#quiz .hint fieldset input:nth-child(2) {margin-right: 35px;}
+#quiz .hint fieldset input:nth-child(3) {margin-right: 145px;}
+#quiz button {position: absolute; bottom: 85px;}
+#quiz button .on {position: absolute; left: 0; top: 0;}
+
+
+
+#roulette {
+  width: 100vw;
+  height: 2050px;
+  background-color: #5e4131;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-image: url(../images/roulette/bg.png);
+  overflow: visible;
+}
+#roulette h3 {margin-top: 82px;}
+#roulette .roulette_area {width: 1008px; margin-top: 65px;}
+#roulette .roulette_area > * {z-index: 50;}
+#roulette .roulette_area .roulette {position: absolute; top: 123px; z-index: -1;}
+#roulette .roulette_area .roulette img {animation: circle 7s linear infinite; animation-play-state: paused;}
+#roulette .roulette_area button:hover + .roulette img {animation: circle 7s linear infinite;}
+#roulette .roulette_area button {position: relative; margin-top: 305px;}
+#roulette .roulette_area button .on {position: absolute; left: 0; top: 0;}
+#roulette .obj_area,
+#roulette .obj_area > *,
+#roulette .obj_area figure {position: absolute; z-index: 100;}
+
+
+#roulette .character_area .txt {left: 1586px; top: 828px;}
+#roulette .character_area .character {left: 1231px; top: 986px;}
+#roulette .obj_area .obj_1 {left: 1569px; top: 419px;}
+#roulette .obj_area .obj_2 {left: 244px; top: 541px;}
+#roulette .obj_area .obj_3 {left: 112px; top: 1300px;}
+
+
+
+#review {
+  width: 100vw;
+  height: 1600px;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-image: url(../images/review/bg.png);
+  overflow: visible;
+  z-index: 100;
+}
+#review h3 {margin-top: 90px;}
+#review .txt_area {width: 1920px;}
+#review .txt_area figure {position: absolute;}
+#review .txt_area .obj_1 {left: 755px; top: 42px;}
+#review .txt_area .obj_2 {left: 641px; top: 52px;}
+#review .txt_area .obj_3 {left: 1279px; top: 125px;}
+#review .txt_area .obj_4 {left: 613px; top: 216px;}
+#review .txt_area .obj_5 {left: 1213px; top: 230px;}
+
+
+#review .obj_area {width: 1920px; display: block;}
+#review .obj_area figure {position: absolute;}
+#review .obj_area .obj_1 {left: 263px; top: 76px;}
+#review .obj_area .obj_2 {left: 1674px; top: 680px;}
+#review .obj_area .character {left: -140px; top: 650px;}
+
+#review .event_area {width: 1920px; display: block;}
+#review .event_area ul {
+  display: flex;
+  justify-content: space-between;
+  width: 1100px;
+  margin-left: calc(50% - 550px);
+  margin-top: 260px;
+}
+#review .event_area ul li {width: 300px;}
+#review .event_area p {position: absolute; left: 772px; top: 573px;}
+
+
+footer {
+  position: relative;
+  width: 100vw;
+  height: 250px;
+  background-color: #110701;
+  z-index: 500;
+}
+
+footer article dl {
+  display: inline-flex;
+  width: 1100px;
+  margin-left: calc(50% - 550px);
+  margin-top: 73px;
+}
+
+footer article dl dd {
+  margin-left: 80px;
+  margin-top: -21px;
+  line-height: 30px;
+}

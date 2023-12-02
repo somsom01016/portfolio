@@ -1,0 +1,319 @@
+#container {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+
+.posNum {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  width: 300px;
+  height: 50px;
+  margin: -25px 0 0 -150px;
+  background: rgba(0,0,0,0.6);
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 50px;
+  z-index: 9999;
+}
+
+body {
+    font-family: 'Gmarket Sans', 'sans-serif';
+    background-color: #fbd001;
+    line-height: 0;
+}
+footer, #wrap > * {width: 100vw;}
+article {width: inherit;}
+#wrap article {
+    position: relative;
+    overflow: visible;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+[class^="inner"] {
+    position: relative;
+    overflow: visible;
+    width: inherit;
+}
+
+[class*="_area"] {
+    position: relative;
+    display: inline-block;
+    overflow: visible;
+    width: inherit;
+}
+
+[class^="inner"].set {
+    width: 100vw;
+    max-width: 1920px;
+    min-width: 1920px;
+}
+
+
+.set {
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+
+strong {display: block;}
+h2, h3, h4, h5, h6, dt, dd, p, strong {white-space : pre-line;}
+
+h2::first-line,
+h3::first-line,
+h4::first-line,
+h5::first-line,
+h6::first-line,
+dt::first-line,
+dd::first-line,
+p::first-line,
+strong::first-line {line-height: 0;}
+
+h2 > img:first-child,
+h3 > img:first-child,
+h4 > img:first-child,
+h5 > img:first-child,
+h6 > img:first-child,
+dt > img:first-child,
+dd > img:first-child,
+p > img:first-child,
+strong > img:first-child {line-height: 0;}
+
+
+
+
+
+h2 img,
+h3 img,
+h4 img,
+h5 img,
+h6 img,
+dt img,
+dd img,
+p img,
+strong img
+{vertical-align: bottom;}
+
+dd, p {font-size: 18px; line-height: 1.6;}
+
+
+button {transition: 0.5s;}
+button img {transition: 1s;}
+button img.hover {position: absolute; opacity: 0; z-index: 100;}
+button:hover img.hover {opacity: 1;}
+button[class^="btn_"]::after {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    transition: 0.5s;
+}
+button[class^="btn_"].set::after {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    transition: 0.5s;
+}
+
+.bg {position: relative;}
+.bg > * {position: relative; z-index: 10;}
+.bg::after {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 0;
+    width: 100%;
+    height: inherit;
+    background-repeat: no-repeat;
+    background-position: center top;
+    z-index: 1;
+}
+
+
+.noise_bg {
+    max-width: 100% !important;
+    min-width: 100% !important;
+    height: inherit;
+}
+.noise_bg::before,
+.noise_bg::after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: inherit;
+    height: inherit;
+    background-color: #2b2a29;
+    z-index: -1;
+}
+
+.noise_bg {position: relative; width: 100vw;}
+.noise_bg::before {opacity: 1;}
+.noise_bg::after {
+    background-blend-mode: overlay;
+    background: url(../images/common/noise.gif) repeat center top;
+    opacity: 0.025;
+}
+
+.full_screen {
+    width: 100vw;
+    height: 100vh;
+    min-height: 1080px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+
+
+
+
+
+
+
+.mockup_area.mask {z-index: 100;}
+.mockup_area.mask .mockup ,
+.mockup_area.mask .fst > *,
+.mockup_area.mask .fst,
+.mockup_area.mask .lst {position: absolute;}
+
+.mockup_area.mask .fst {z-index: 300;}
+.mockup_area.mask .mockup {z-index: 200;}
+.mockup_area.mask .lst {z-index: 100;}
+
+.mockup_area.mask .fst .soft-light img {mix-blend-mode: soft-light; opacity: 0.2;}
+.mockup_area.mask .fst .multiply   img {mix-blend-mode: multiply; opacity: 0.2;}
+
+
+
+
+
+.bg {position: relative;}
+.bg > * {position: relative; z-index: 10;}
+.bg::after {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 0;
+    width: 100%;
+    height: inherit;
+    background-repeat: no-repeat;
+    background-position: center top;
+    z-index: 1;
+}
+
+
+
+[class^="inner"].noise_bg {
+    max-width: 100% !important;
+    min-width: 100% !important;
+}
+
+.noise_bg::before,
+.noise_bg::after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: inherit;
+    height: inherit;
+    z-index: -1;
+}
+
+.noise_bg {position: relative; width: 100vw;}
+.noise_bg::after {
+    background-blend-mode :multiply;
+    background: url(../images/common/noise.gif) repeat center top;
+}
+
+#hero.noise_bg::after {
+    background-color: #086cff;
+    opacity: 0.25;
+}
+#hero.noise_bg::before {
+    background-color: #086cff;
+}
+
+#hero {height: 1290px;}
+#thank-you {height: 1100px;}
+
+.positioning-map.noise_bg::after,
+.positioning-map.noise_bg::before {
+    position: absolute;
+    height: 2640px;
+}
+#desk-research {background: url(../images/desk-research/bg_1.png) no-repeat center top;}
+#desk-research.noise_bg::before {background: url(../images/desk-research/bg_2.gif) repeat-x;}
+#user-research.noise_bg::before {background-color: #5b3927;}
+#user-research.noise_bg::after {background-color: #5b3927;}
+#conclusion.noise_bg::after {
+  background-image: url(../images/conclusion/bg.png),url(../images/common/noise_2.gif);
+  background-repeat: repeat;
+  opacity: 0.2;
+}
+#conclusion.noise_bg::before {
+  background: url(../images/conclusion/bg.png) repeat-x;
+  opacity: 1;
+}
+#character.noise_bg::after {
+  background-image: url(../images/character/bg.png),url(../images/common/noise_2.gif);
+  background-repeat: repeat;
+  opacity: 0.2;
+}
+#character.noise_bg::before {
+  background: url(../images/character/bg.png) repeat-x;
+  opacity: 1;
+}
+#promotion.noise_bg::after {
+  background-image: url(../images/promotion/bg.gif),url(../images/common/noise_2.gif);
+  background-repeat: repeat;
+  opacity: 0.2;
+}
+#promotion.noise_bg::before {
+  background: url(../images/promotion/bg.gif) repeat-x;
+  background-color: #fdd201;
+  opacity: 1;
+}
+#thank-you.noise_bg::after {
+  background-image: url(../images/common/noise_2.gif);
+  background-color: #fdd201;
+  background-repeat: repeat;
+  opacity: 0.2;
+}
+#thank-you.noise_bg::before {
+  background-color: #fdd201;
+  opacity: 1;
+}
+
+
+/* 
+#wrap {margin-top: -7800px;}
+#wrap::after {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 18000px;
+  background: url(../images/bg.gif) center top no-repeat;
+  z-index: 1000;
+  opacity: 0.7;
+} */
+
+
+
