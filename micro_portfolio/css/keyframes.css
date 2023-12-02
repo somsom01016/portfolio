@@ -1,0 +1,55 @@
+/* animation */
+@keyframes circle {
+  0% {transform: rotate(0deg);}
+  100% {transform: rotate(360deg);}
+}
+
+[class^="circle"] {animation: circle 7s linear infinite;}
+
+@keyframes circle_180 {
+  0% {transform: rotate(-180deg);}
+  100% {transform: rotate(0deg);}
+}
+
+
+
+@keyframes border {
+  0%  {border: 00px solid #191614;}
+  100% {border: 30px solid #191614;}
+}
+
+@keyframes flow {
+  0%  {transform: translateX(0%);}
+  100% {transform: translateX(-100%);}
+}
+
+@keyframes flow_hori {
+  0%  {transform: translateX(0%);}
+  100% {transform: translateX(-100%);}
+}
+
+@keyframes flow_vert {
+  0%  {transform: translateY(0%);}
+  100% {transform: translateY(-100%);}
+}
+.testttt {animation: flow linear 9s infinite;}
+
+
+
+
+@keyframes rotate {
+  0% {transform: rotate(0deg);}
+  50% {transform: rotate(-10deg);}
+  100% {transform: rotate(0deg);}
+}
+
+
+@keyframes arr_right {
+  0%   {transform: translateX(0%);}
+  100%   {transform: translateX(50%);}
+}
+
+@keyframes graph {
+  0%   {width: 0%;}
+  100%   {width: 100%;}
+}

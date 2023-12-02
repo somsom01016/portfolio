@@ -1,0 +1,360 @@
+button {z-index: 999;}
+
+/* 히어로 이미지 */
+article {height: inherit;}
+
+
+#hero {overflow: visible;}
+#hero #gnb {
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  width: inherit;
+  height: 42px;
+  margin-top: 34px;
+}
+#hero #gnb h1 {align-self: flex-start;}
+#hero #gnb h5 {margin-right: -26px;}
+
+
+#hero h2 {margin-top: 124px; line-height: 150px;}
+#hero h2 img:nth-child(1) {margin-left: -2px;}
+#hero h2 img:nth-child(2) {margin-left: 0px;}
+#hero h2 img:nth-child(3) {margin-left: -3px;}
+#hero h2 img:nth-child(4) {margin-left: 194px; margin-bottom: 3px;}
+
+#hero::after {background-image: url(../images/hero/bg.png);}
+#hero article {width: 1800px;}
+
+
+#overview article {width: 1600px;}
+#overview .img {position: absolute; right: 0;}
+#overview .tit_area {
+  width: initial;
+  height: 827px;
+  margin-left: 50px;
+}
+#overview .tit_area strong {line-height: 115px; margin-top: 130px;}
+#overview .tit_area strong img:nth-child(2) {margin-left: -3px;}
+#overview .tit_area p {margin-top: 47px; margin-left: -3px;}
+
+#overview .cont_area {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+#overview .cont_area figure {margin-top: -240px;}
+#overview .cont_area h5 {margin-left: 94px; margin-top: 6px;}
+#overview .cont_area hr {margin-left: 47px; margin-top: 13px;}
+#overview .cont_area .txt_area {width: 732px; margin-left: auto;}
+#overview .cont_area h4 {line-height: 36px;}
+
+
+
+
+
+
+
+#research .flow {height: 0px;}
+#research .inner01 {
+  background: url(../images/research/01_bg_obj.png) 160px 41px no-repeat;
+}
+#research .inner01::after {
+  top: 775px;
+  background-image: url(../images/research/01_bg_fst.png);
+}
+#research .inner01 .img_1 {left: 1282px; top: 61px;}
+#research .inner01 .img_2 {left: -50px; top: 523px;}
+#research .inner01 .img_3 {left: 1591px; top: 1131px;}
+#research figure[class*="img"] {position: absolute;}
+
+#research .txt_area {width: 1920px;}
+#research .txt_1 {margin-left: 362px;  margin-top: 371px;}
+#research .txt_2 {margin-left: 1036px; margin-top: 115px;}
+#research .txt_2 img:nth-child(2) {margin-left: 299px; margin-top: 57px;}
+#research .txt_3 {margin-left: 790px;  margin-top: 309px;}
+#research .txt_4 {margin-left: -250px; margin-top: 105px;}
+
+#research .txt_area strong {position: relative;}
+#research .txt_1 .obj {left: 333px;}
+#research .txt_4 .obj {left: 560px; top: 3px;}
+#research .txt_4 .obj.circle {left: 854px; top: 8px;}
+
+#research .inner02 .img_1 {right: 1710px; top: -58px;}
+#research .inner02 .tit_area {width: 1600px;}
+#research .inner02 .tit_area h3 {line-height: 48px; margin-left: 1px;}
+#research .inner02 .tit_area h3 img:nth-child(2) {margin-left: 63px;}
+#research .inner02 .itm_area {
+  display: flex;
+  justify-content: space-between;
+  width: 1604px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 139px;
+}
+#research .inner02 .itm_area.visible {}
+#research .inner02 .itm_area li {width: 402px;}
+#research .inner02 .itm_area li {margin-left: -1px;}
+#research .inner02 .itm_area li figure {transition: all 1.5s;}
+#research .inner02 .itm_area.visible li.itm_3 figure {margin-top: -270px;}
+#research .inner02 .itm_area p {
+  position: absolute;
+  top: 235px;
+  width: inherit;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#output::after {
+  height: 3240px;
+  background-color: #070f2e;
+}
+
+#output .gui {}
+#output .gui .txt_area {
+  display: inline-flex;
+  flex-wrap: wrap;
+  width: 1920px;
+  height: 310px;
+  margin-top: 150px;
+}
+#output .gui .txt_area h3 img {position: absolute;}
+#output .gui .txt_area h3 img:nth-child(1) {left: -560px;}
+#output .gui .txt_area h3 img:nth-child(2) {left: 754px; top: 182px;}
+#output .gui .txt_area hr {left: 1165px; top: 67px;}
+#output .gui .txt_area p {position: absolute; left: 1288px; top: 26px;}
+
+
+#output .gui .mockup_area {width: 1920px;}
+#output .gui .mockup_area .mockup {position: relative; z-index: 100;}
+#output .gui .shape_1 {width: 46px; height: 46px; background-color: #0b6fc5;}
+#output .gui .shape_2 {width: 200px; height: 200px; background-color: #e50110;}
+#output .gui .shape_3 {width: 150px; height: 150px; background-color: #a7b9eb;}
+#output .gui .shape_4 {width: 200px; height: 200px; background-color: #0042ff;}
+#output .gui .shape_1 {left: 149px; top: -55px;}
+#output .gui .shape_2 {left: 418px; top: 79px;}
+#output .gui .shape_3 {left: 126px; top: 696px;}
+#output .gui .shape_4 {left: 1672px; top: 875px;}
+
+#output .gui .bar_flow {
+  position: absolute;
+  left: -25%;
+  width: 150%;
+  height: 85px;
+  background-image: -moz-linear-gradient( 0deg, rgb(74,143,247) 0%, rgb(102,60,220) 100%);
+  background-image: -webkit-linear-gradient( 0deg, rgb(74,143,247) 0%, rgb(102,60,220) 100%);
+  background-image: -ms-linear-gradient( 0deg, rgb(74,143,247) 0%, rgb(102,60,220) 100%);
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.004);
+}
+#output .gui .bar_flow.reverse {
+  background-image: -moz-linear-gradient( 0deg, rgb(102,60,220) 0%, rgb(74,143,247) 100%);
+  background-image: -webkit-linear-gradient( 0deg, rgb(102,60,220) 0%, rgb(74,143,247) 100%);
+  background-image: -ms-linear-gradient( 0deg, rgb(102,60,220) 0%, rgb(74,143,247) 100%);
+}
+#output .gui .bar_flow.reverse .flow_area > * {animation-direction: reverse;}
+#output .gui .bar_flow img {margin-right: 63px; margin-top: 26px;}
+#output .gui .bar_flow figure {display: flex;}
+#output .gui .bar_flow.flow_1 {top: 407px; transform: rotate(-10deg); z-index: 1;}
+#output .gui .bar_flow.flow_2 {top: 670px; transform: rotate(3deg);}
+#output .gui .bar_flow.flow_3 {top: 880px; transform: rotate(-3deg);}
+
+
+
+
+
+#output .layout::after {
+  width: 2216px;
+  height: 830px;
+  background: url(../images/layout/bg.png) center top no-repeat;
+  margin-left: -10%;
+  transition: all 0.7s;
+}
+#output .layout.visible_2::after {margin-left: 0;}
+#output .layout {display: inline-flex; z-index: 200;}
+#output .layout .mockup.itm_1 {margin-left: -60px; margin-top: 340px;}
+#output .layout .mockup.itm_2 {
+  position: absolute;
+  left: 910px;
+  top: 1170px;
+}
+#output .layout .txt_area {
+  width: initial;
+  margin-left: 50px;
+  margin-top: 665px;
+}
+#output .layout .txt_area p {
+  margin-left: 20px;
+  margin-top: 30px;
+  line-height: 37px;
+}
+#output .layout .txt_area button {
+  margin-left: 384px;
+  margin-top: 55px;
+}
+
+
+#output .about::after {
+  top: 200px;
+  width: 2362px;
+  height: 790px;
+  background: url(../images/about/bg.png) center top no-repeat;
+  margin-left: -10%;
+  transition: all 0.7s;
+}
+#output .about.visible_2::after {margin-left: 0;}
+#output .about {z-index: 100;}
+#output .about .txt_area {width: 1700px; margin-top: 590px; z-index: 100;}
+#output .about h3 img:nth-child(2) {margin-left: 50px; margin-top: 49px;}
+#output .about h5 {
+  position: absolute;
+  left: 380px;
+  top: 97px;
+}
+#output .about h5 img:nth-child(1) {
+  position: absolute;
+  left: 240px;
+  top: 130px;
+}
+#output .about h5 img:nth-child(2) {
+  position: relative;
+  z-index: 100;
+}
+#output .about h5::after {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 92px;
+  top: 3px;
+  width: 463px;
+  height: 439px;
+  background: url(../images/about/emph_line.png) no-repeat;
+  z-index: 50;
+}
+#output .about p {
+  font-size: 20px;
+  line-height: 1.8;
+  margin-left: 50px;
+  margin-top: 120px;
+}
+#output .about .mockup {position: absolute; left: 900px; top: 980px;}
+
+
+
+#output .typography {
+  background: url(../images/typography/bg.png) center top no-repeat;
+}
+#output .typography .txt_area {
+  display: inline-flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 1500px;
+  margin-top: 128px;
+}
+#output .typography .txt_area .txt_1 {margin-top: 37px;}
+#output .typography .txt_area .txt_2 {margin-left: 120px; margin-top: 48px;}
+#output .typography .txt_area .txt_3 img:nth-child(2) {
+  margin-right: -10px;
+  margin-top: 23px;
+}
+#output .typography .txt_area .txt_3 {
+  margin-right: -39px;
+  margin-top: 169px;
+  align-self: flex-end;
+}
+
+
+
+
+
+
+
+
+
+#output .other::after {
+  left: 805px;
+  top: 126px;
+  transform: initial;
+  width: 994px;
+  height: 716px;
+  background: url(../images/other/bg_obj.png) center top no-repeat;
+}
+#output .other {width: 1600px;}
+#output .other h3 {margin-top: 88px;}
+#output .other p {
+  font-size: 20px;
+  line-height: 1.8;
+  margin-left: -6px;
+  margin-top: 48px;
+}
+#output .other .mockup_area {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+#output .other .mockup_area .itm_2 {
+  align-self: flex-end;
+  margin-right: -50px;
+  margin-top: -182px;;
+}
+#output .other .mockup_area .itm_3 {
+  margin-left: -264px;
+  margin-top: -325px;;
+}
+#output .other .obj     {left: 44px; top: 838px;}
+#output .other .obj_lst {left: 133px; top: 803px;}
+#output .other .shape_1 {left: 318px; top: 690px;}
+#output .other .shape_1 {width: 70px; height: 70px; background-color: #4d85f6;}
+#output .other .mockup_area [class*="obj"] {position: absolute; z-index: 10;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+#thank-you {opacity: 0.5;}
+#thank-you {background-color: rgba(151, 177, 123, 0.5);}
+ */
+
+
+
+
+
+
+
+
+
+
+
+
