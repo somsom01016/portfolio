@@ -1,12 +1,442 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Portfolio</title>
-</head>
-<body>
-  <p>Hello, World!</p>
-</body>
+<html lang="kr">
+
+    <head>
+        <meta charset="UTF-8">
+        <link rel="icon" type="image/x-icon" href="./images/favicon.png">
+        <title>PORTFOLIO</title>
+        <link rel="stylesheet" href="./common/css/reset.css">
+        <link rel="stylesheet" href="./common/css/common.css">
+        <link rel="stylesheet" href="./common/css/plugin/slick.css">
+        <link rel="stylesheet" href="./common/css/plugin/jquery-ui.min.css">
+        <link rel="stylesheet" href="./common/css/ScrollMagicAnimate.css">
+        <link rel="stylesheet" href="./common/css/plugin/swiper-bundle.min.css">
+        <link rel="stylesheet" href="./common/css/font.css">
+        <link rel="stylesheet" href="./common/css/index.css">
+
+        <script src="./common/js/plugin/jquery.min.js"></script>
+        <script src="./common/js/plugin/jquery-ui.min.js"></script>
+    </head>
+
+    <body id="" class="">
+      <!-- <div class="posNum"></div> -->
+  
+      <section id="container">
+        <div id="wrap">
+          <header id="gnb">
+            <h1>
+              <i class="obj_ico_1"><img src="./images/common/ico_1.png" alt=""></i>
+              <i class="obj_ico_2"><img src="./images/common/ico_2.png" alt=""></i>
+              <img src="./images/common/logo.png" class="logo">
+            </h1>
+
+            <nav>
+              <ul class="menu_area">
+                <li>
+                  <ul>
+                    <li type="button" onclick="window.open('./promotion01_portfolio/')">
+                      <img src="./images/common/menu_1_1_hover.png" class="hover">
+                      <img src="./images/common/menu_1_1.png" class="">
+                    </li>
+                    <li type="button" onclick="window.open('./promotion02_portfolio/')">
+                      <img src="./images/common/menu_1_2_hover.png" class="hover">
+                      <img src="./images/common/menu_1_2.png" class="">
+                    </li>
+                    <li type="button" onclick="window.open('./promotion03_portfolio/')">
+                      <img src="./images/common/menu_1_3_hover.png" class="hover">
+                      <img src="./images/common/menu_1_3.png" class="">
+                    </li>
+                  </ul>
+                  <img src="./images/common/menu_1_hover.png" class="hover">
+                  <img src="./images/common/menu_1.png" class="">
+                </li>
+                <li>
+                  <ul>
+                    <li type="button" onclick="window.open('./work01/')">
+                      <img src="./images/common/menu_2_1_hover.png" class="hover">
+                      <img src="./images/common/menu_2_1.png" class="">
+                    </li>
+                    <li type="button" onclick="window.open('./work02/')">
+                      <img src="./images/common/menu_2_2_hover.png" class="hover">
+                      <img src="./images/common/menu_2_2.png" class="">
+                    </li>
+                    <li type="button" onclick="window.open('./work03/')">
+                      <img src="./images/common/menu_2_3_hover.png" class="hover">
+                      <img src="./images/common/menu_2_3.png" class="">
+                    </li>
+                  </ul>
+                  <img src="./images/common/menu_2_hover.png" class="hover">
+                  <img src="./images/common/menu_2.png" class="">
+                </li>
+                <li type="button" onclick="window.open('./micro_portfolio/')">
+                  <img src="./images/common/menu_3_hover.png" class="hover">
+                  <img src="./images/common/menu_3.png" class="">
+                </li>
+                <li type="button" onclick="window.open('./renewal_portfolio/')">
+                  <img src="./images/common/menu_4_hover.png" class="hover">
+                  <img src="./images/common/menu_4.png" class="">
+                </li>
+                <li type="button" onclick="window.open('./uiux_portfolio/')">
+                  <img src="./images/common/menu_5_hover.png" class="hover">
+                  <img src="./images/common/menu_5.png" class="">
+                </li>
+              </ul>
+            </nav>
+
+            <figure class="obj_ico">
+              <i class="obj_ico_1"><img src="./images/common/ico_1.png" alt=""></i>
+              <i class="obj_ico_2"><img src="./images/common/ico_2.png" alt=""></i>
+            </figure>
+          </header>
+
+          <main id="hero" class="">
+            <article class="">
+              <div class="img_area">
+                <div class="txt_area">
+                  <h2 class=""><img src="./images/hero/tit_1.png" class="txt_1 fadeInLeft">
+                    <img src="./images/hero/tit_2.png" class="txt_2 fadeInRight">
+                    <img src="./images/hero/tit_3.png" class="txt_3 fadeInLeft">
+                  </h2>
+                  <p class="center fadeInUp"><img src="./images/hero/tit_desc.png" alt=""></p>
+                </div>
+                <div class="img fadeInUpBig">
+                  <img src="./images/hero/img.png" alt="">
+                  <figure class="circle">
+                    <img src="./images/hero/img_bg_1.png" alt="">
+                    <img src="./images/hero/img_bg_2.png" alt="">
+                  </figure>
+                </div>
+                <div class="shape_area">
+                  <span class="top">
+                    <i class="shape_1 fadeInDown"></i>
+                    <i class="shape_2 fadeInDown"></i>
+                    <i class="shape_3 fadeInDown"></i>
+                  </span>
+                  <span class="bot">
+                    <i class="shape_3"></i>
+                    <i class="shape_2"></i>
+                    <i class="shape_1"></i>
+                  </span>
+                </div>
+                <div class="scroll fadeInDown">
+                  <figure class="">
+                    <img src="./images/hero/circle.png" class="circle">
+                    <img src="./images/hero/arr.png" class="">
+                  </figure>
+                </div>
+              </div>
+              <div class="left fadeInLeftBig">
+                <p class="txt"><img src="./images/hero/left_txt_1.png" alt="">
+                  <img src="./images/hero/left_txt_2.png" alt="">
+                  <img src="./images/hero/left_txt_3.png" alt="">
+                </p>
+                <figure><img src="./images/hero/bg_left.png" alt=""></figure>
+              </div>
+              <div class="right fadeInRightBig">
+                <p class="txt"><img src="./images/hero/right_txt_1.png" alt="">
+                  <img src="./images/hero/right_txt_2.png" alt="">
+                  <img src="./images/hero/right_txt_3.png" alt="">
+                </p>
+                <figure><img src="./images/hero/bg_right.png" alt=""></figure>
+              </div>
+            </article>
+          </main>
+
+          <section id="overview" class="noise_bg">
+            <article class="inner set noise_bg">
+              <div class="txt_area">
+                <strong class="faderotateRight"><img src="./images/overview/strong.png" alt=""></strong>
+                <h3 class="fadeInUpBig_inner"><img src="./images/overview/tit_1.png" alt="">
+                  <img src="./images/overview/tit_2.png" alt="">
+                </h3>
+                <p class="fadeInUp_inner"><img src="./images/overview/tit_desc_1.png" alt="">
+                  <img src="./images/overview/tit_desc_2.png" alt="">
+                  <img src="./images/overview/tit_desc_3.png" alt="">
+                  <img src="./images/overview/tit_desc_4.png" alt="">
+                  <img src="./images/overview/tit_desc_5.png" alt="">
+                  <img src="./images/overview/tit_desc_6.png" alt="">
+                </p>
+              </div>
+            </article>
+          </section>
+
+          <section id="index" class="">
+            <article class="inner set">
+              <ul class="">
+                <li class="fadeInLeft" type="button" onclick="window.open('./promotion01_portfolio/')">
+                  <img src="./images/index/promotion_1.png" alt="">
+                </li>
+                <li class="narrow fadeInLeft"><img src="./images/index/itm_1.png" alt=""></li>
+                <li class="narrow fadeInLeft" type="button" onclick="window.open('./work02_portfolio/')">
+                  <img src="./images/index/work_2.png" alt="">
+                </li>
+                <li class="fadeInRight" type="button" onclick="window.open('./promotion02_portfolio/')">
+                  <img src="./images/index/promotion_2.png" alt="">
+                </li>
+                <li class="narrow fadeInRight"><img src="./images/index/itm_2.png" alt=""></li>
+                <li class="fadeInRight" type="button" onclick="window.open('./uiux_portfolio/')">
+                  <img src="./images/index/uiux.png" alt="">
+                </li>
+                <li class="narrow fadeInRight" type="button" onclick="window.open('./micro_portfolio/')">
+                  <img src="./images/index/micro.png" alt="">
+                </li>
+                <li class="fadeInRight" type="button" onclick="window.open('./work03_portfolio/')">
+                  <img src="./images/index/work_3.png" alt="">
+                </li>
+                <li class="fadeInLeft" type="button" onclick="window.open('./work01_portfolio/')">
+                  <img src="./images/index/work_1.png" alt="">
+                </li>
+                <li class="narrow fadeInLeft" type="button" onclick="window.open('./promotion03_portfolio/')">
+                  <img src="./images/index/promotion_3.png" alt="">
+                </li>
+                <li class="fadeInLeft" type="button" onclick="window.open('./renewal_portfolio/')">
+                  <img src="./images/index/renewal.png" alt="">
+                </li>
+              </ul>
+            </article>
+          </section>
+
+          <section id="sec01" class="">
+            <article class="inner set center">
+              <div class="txt_area">
+                <strong><img src="./images/common/01_circle.png" alt=""></strong>
+                <h4 class="fadeInUp_inner"><img src="./images/common/01_tit_1.png" alt="">
+                  <img src="./images/common/01_tit_2.png" alt="">
+                  <img src="./images/common/01_tit_3.png" alt="">
+                  <img src="./images/common/01_tit_4.png" alt="">
+                  <img src="./images/common/01_tit_5.png" alt="">
+                  <img src="./images/common/01_tit_6.png" alt="">
+                </h4>
+                <i class="arr fadeInUp"><img src="./images/common/01_arr.png" alt=""></i>
+                <p class="fadeInUp_inner"><img src="./images/common/01_tit_desc_1.png" alt="">
+                  <img src="./images/common/01_tit_desc_2.png" alt="">
+                </p>
+              </div>
+            </article>
+          </section>
+
+          <section id="profile" class="noise_bg">
+            <article class="inner01 set fadeInUp_inner">
+              <div class="bg_area">
+                <p class="fadeInLeft"><img src="./images/profile/01_bg_txt_left.png" alt=""></p>
+                <p class="fadeInRight"><img src="./images/profile/01_bg_txt_right.png" alt=""></p>
+              </div>
+              <div class="tit_area">
+                <p class="fadeInRight"><img src="./images/profile/01_top_left.png" alt=""></p>
+                <p class="right fadeInLeft"><img src="./images/profile/01_top_right.png" alt=""></p>
+                <h3 class="center fadeInUp_inner"><img src="./images/profile/01_tit_1.png" alt="">
+                  <img src="./images/profile/01_tit_2.png" alt="">
+                  <img src="./images/profile/01_tit_3.png" alt="">
+                </h3>
+              </div>
+              <div class="img_area">
+                <strong class="fadeInLeft"><img src="./images/profile/01_strong.png" alt=""></strong>
+                <figure><img src="./images/profile/01_img.png" alt=""></figure>
+              </div>
+            </article>
+
+            <article class="inner02 set">
+              <div class="tit_area">
+                <h4 class="faderotateLeft"><img src="./images/profile/circle.png" class=""></h4>
+                <hr>
+                <i class="shape"></i>
+              </div>
+              <div class="itm_area right experience">
+                <h5 class="bul"><img src="./images/profile/experience_tit.png" alt=""></h5>
+                <ul class="list_area fadeInUpBig">
+                  <li><img src="./images/profile/experience_itm_1.png" alt=""></li>
+                  <li><img src="./images/profile/experience_itm_2.png" alt=""></li>
+                  <li><img src="./images/profile/experience_itm_3.png" alt=""></li>
+                  <li><img src="./images/profile/experience_itm_4.png" alt=""></li>
+                  <li><img src="./images/profile/experience_itm_5.png" alt=""></li>
+                  <li><img src="./images/profile/experience_itm_6.png" alt=""></li>
+                  <li><img src="./images/profile/experience_itm_7.png" alt=""></li>
+                  <li><img src="./images/profile/experience_itm_8.png" alt=""></li>
+                  <li><img src="./images/profile/experience_itm_9.png" alt=""></li>
+                  <li><img src="./images/profile/experience_itm_10.png" alt=""></li>
+                  <li><img src="./images/profile/experience_itm_11.png" alt=""></li>
+                  <li class="mt32"><img src="./images/profile/experience_itm_12.png" alt=""></li>
+                  <li><img src="./images/profile/experience_itm_13.png" alt=""></li>
+                  <li class="mt32"><img src="./images/profile/experience_itm_14.png" alt=""></li>
+                  <li><img src="./images/profile/experience_itm_15.png" alt=""></li>
+                  <li class=""><img src="./images/profile/experience_itm_16.png" alt=""></li>
+                  <li><img src="./images/profile/experience_itm_17.png" alt=""></li>
+                  <li><img src="./images/profile/experience_itm_18.png" alt=""></li>
+                  <li><img src="./images/profile/experience_itm_19.png" alt=""></li>
+                  <li><img src="./images/profile/experience_itm_20.png" alt=""></li>
+                  <li><img src="./images/profile/experience_itm_21.png" alt=""></li>
+                  <li><img src="./images/profile/experience_itm_22.png" alt=""></li>
+                  <li><img src="./images/profile/experience_itm_23.png" alt=""></li>
+                  <li><img src="./images/profile/experience_itm_24.png" alt=""></li>
+                  <li><img src="./images/profile/experience_itm_25.png" alt=""></li>
+                  <li><img src="./images/profile/experience_itm_26.png" alt=""></li>
+                </ul>
+              </div>
+              <div class="itm_area fadeInUp_inner">
+                <div class="about fadeInUp_inner">
+                  <strong class="bul"><img src="./images/profile/about_strong.png" alt=""></strong>
+                  <h6><img src="./images/profile/about_tit.png" alt=""></h6>
+                  <p class="fadeInUp_inner"><img src="./images/profile/about_tit_desc_1.png" alt="">
+                    <img src="./images/profile/about_tit_desc_2.png" alt="">
+                    <img src="./images/profile/about_tit_desc_3.png" alt="">
+                    <img src="./images/profile/about_tit_desc_4.png" alt="">
+                  </p>
+                </div>
+                <div class="skills">
+                  <h5 class="bul"><img src="./images/profile/skills_tit.png" alt=""></h5>
+                  <ul class="itm01">
+                    <li class="itm_1 ps">
+                      <h6><img src="./images/profile/skills_itm_1.png" alt=""></h6>
+                      <svg><circle></circle></svg>
+                      <p><img src="./images/profile/skills_itm_1_1.png" alt=""></p>
+                    </li>
+                    <li class="itm_2 ai">
+                      <h6><img src="./images/profile/skills_itm_2.png" alt=""></h6>
+                      <svg><circle></circle></svg>
+                      <p><img src="./images/profile/skills_itm_2_1.png" alt=""></p>
+                    </li>
+                    <li class="itm_3 html">
+                      <h6><img src="./images/profile/skills_itm_3.png" alt=""></h6>
+                      <svg><circle></circle></svg>
+                      <p><img src="./images/profile/skills_itm_3_1.png" alt=""></p>
+                    </li>
+                    <li class="itm_4 js">
+                      <h6><img src="./images/profile/skills_itm_4.png" alt=""></h6>
+                      <svg><circle></circle></svg>
+                      <p><img src="./images/profile/skills_itm_4_1.png" alt=""></p>
+                    </li>
+                  </ul>
+                  <ul class="itm02 fadeInUp_inner">
+                    <li class="itm_1 ps">
+                      <p><img src="./images/profile/skills_itm_1_2.png" alt=""></p>
+                      <meter value="90" min="0" max="100">90</meter>
+                    </li>
+                    <li class="itm_2 ai">
+                      <p><img src="./images/profile/skills_itm_2_2.png" alt=""></p>
+                      <meter value="70" min="0" max="100">70</meter>
+                    </li>
+                    <li class="itm_3 html">
+                      <p><img src="./images/profile/skills_itm_3_2.png" alt=""></p>
+                      <meter value="85" min="0" max="100">85</meter>
+                    </li>
+                    <li class="itm_4 js">
+                      <p><img src="./images/profile/skills_itm_4_2.png" alt=""></p>
+                      <meter value="70" min="0" max="100">70</meter>
+                    </li>
+                  </ul>
+                </div>
+                <div class="qualification fadeInUp_inner">
+                  <h5 class="bul"><img src="./images/profile/qualification_tit.png" alt=""></h5>
+                  <ul class="list_area fadeInUp_inner">
+                    <li><img src="./images/profile/qualification_itm_1.png" alt=""></li>
+                    <li><img src="./images/profile/qualification_itm_2.png" alt=""></li>
+                    <li><img src="./images/profile/qualification_itm_3.png" alt=""></li>
+                    <li class="mt35"><img src="./images/profile/qualification_itm_4.png" alt=""></li>
+                    <li><img src="./images/profile/qualification_itm_5.png" alt=""></li>
+                  </ul>
+                </div>
+              </div>
+            </article>
+          </section>
+
+          <footer id="thank-you" class="">
+            <article class="">
+              <div class="itm_area01">
+                <figure class="shape">
+                  <i class="shape_1"></i>
+                  <i class="shape_3"></i>
+                  <i class="shape_2"><img src="./images/thank-you/shape_2.png" alt=""></i>
+                </figure>
+                <figure class="obj_ico">
+                  <i class="obj_ico_3"><img src="./images/thank-you/ico_1.png" alt=""></i>
+                  <i class="obj_ico_2"><img src="./images/thank-you/ico_2.png" alt=""></i>
+                </figure>
+                <p class="fadeInUp"><img src="./images/thank-you/emph.png" alt=""></p>
+                <h2 class="fadeInLeftBig"><img src="./images/thank-you/tit_1.png" class="fadeInLeft">
+                  <img src="./images/thank-you/tit_2.png" class="fadeInLeft">
+                  <img src="./images/thank-you/tit_3.png" class="">
+                </h2>
+              </div>
+              <div class="itm_area02 fadeInUp_inner">
+                <p class="copy"><img src="./images/thank-you/copy.png" alt=""></p>
+                <strong class="kr fadeInUp_inner"><img src="./images/thank-you/strong_kr_1.png" class="">
+                  <img src="./images/thank-you/strong_kr_2.png" class="">
+                  <img src="./images/thank-you/strong_kr_3.png" class="">
+                </strong>
+                <strong class="en fadeInUp_inner"><img src="./images/thank-you/strong_en_1.png" class="">
+                  <img src="./images/thank-you/strong_en_2.png" class="">
+                  <img src="./images/thank-you/strong_en_3.png" class="">
+                </strong>
+                <dl class="fadeInUp_inner">
+                  <dt><img src="./images/thank-you/phone_tit.png" alt=""></dt>
+                  <dd><img src="./images/thank-you/phone_tit_desc.png" alt=""></dd>
+                  <dt><img src="./images/thank-you/email_tit.png" alt=""></dt>
+                  <dd><img src="./images/thank-you/email_tit_desc.png" alt=""></dd>
+                </dl>
+                <hr>
+                <div class="menu_area fadeInUp_inner">
+                  <div class="promotion">
+                    <h5><img src="./images/thank-you/promotion_tit.png" alt=""></h5>
+                    <ul class="">
+                      <li type="button" onclick="window.open('./promotion01_portfolio/')">
+                        <img src="./images/thank-you/btn_1.png" alt="">
+                      </li>
+                      <li type="button" onclick="window.open('./promotion02_portfolio/')">
+                        <img src="./images/thank-you/btn_2.png" alt="">
+                      </li>
+                      <li type="button" onclick="window.open('./promotion03_portfolio/')">
+                        <img src="./images/thank-you/btn_3.png" alt="">
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="work fadeInUp_inner">
+                    <h5><img src="./images/thank-you/work_tit.png" alt=""></h5>
+                    <ul class="">
+                      <li type="button" onclick="window.open('./work01/')">
+                        <img src="./images/thank-you/btn_4.png" alt="">
+                      </li>
+                      <li type="button" onclick="window.open('./work02/')">
+                        <img src="./images/thank-you/btn_5.png" alt="">
+                      </li>
+                      <li type="button" onclick="window.open('./work03/')">
+                        <img src="./images/thank-you/btn_6.png" alt="">
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="proposal fadeInUp_inner">
+                    <h5><img src="./images/thank-you/proposal_tit.png" alt=""></h5>
+                    <ul class="">
+                      <li type="button" onclick="window.open('./micro_portfolio/')">
+                        <img src="./images/thank-you/btn_7.png" alt="">
+                      </li>
+                      <li type="button" onclick="window.open('./uiux_portfolio/')">
+                        <img src="./images/thank-you/btn_8.png" alt="">
+                      </li>
+                      <li type="button" onclick="window.open('./renewal_portfolio/')">
+                        <img src="./images/thank-you/btn_9.png" alt="">
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </article>
+          </footer>
+        </div>
+      </section>
+  
+      <script src="./common/js/plugin/gsap.min.js"></script>
+      <script src="./common/js/plugin/ScrollTrigger.min.js"></script>
+      <script src="./common/js/plugin/ScrollMagic.min.js"></script> <!-- ScrollMagic -->
+      <script src="./common/js/plugin/animation.gsap.min.js"></script> <!-- ScrollMagic -->
+      <script src="./common/js/plugin/debug.addIndicators.min.js"></script> <!-- ScrollMagic -->
+      <script src="./common/js/plugin/swiper.min.js"></script>
+      <script src="./common/js/plugin/slick.min.js"></script>
+      <script src="./common/js/scrollbar.js"></script>
+      <script src="./common/js/ScrollMagicAnimate.js"></script>
+      <script src="./common/js/common.js"></script>
+      <script src="./common/js/snap.svg-min.js"></script>
+      <script src="./common/js/TweenMax.min.js"></script>
+      <script src="./common/js/index.js"></script>
+    </body>
+      
 </html>
